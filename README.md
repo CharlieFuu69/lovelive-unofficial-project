@@ -1,8 +1,7 @@
 <!-- Links de utilidad pública --->
 [license]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/LICENSE
 [renpy]: https://renpy.org/
-[llup-roadmap-esp]: https://github.com/CharlieFuu69/RenPy_RhythmBeats/blob/main/llup-roadmap-esp.md
-[llup-roadmap-eng]: https://github.com/CharlieFuu69/RenPy_RhythmBeats/blob/main/llup-roadmap-eng.md
+[roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/roadmap-es.md
 
 <!-- Badges del README --->
 [renpy-badge]: https://img.shields.io/badge/Engine-Ren'Py%20v8.1.3-red?style=for-the-badge&logo=python
@@ -28,7 +27,7 @@
 </p>
 
 >[!NOTE]
-> _**Roadmap de desarrollo:** Si quieres conocer o hacer segumiento al progreso actual de desarrollo del Fangame, accede al Roadmap **[presionando aquí][llup-roadmap-esp]**._
+> _**Roadmap de desarrollo:** Si quieres conocer o hacer segumiento al progreso actual de desarrollo del Fangame, accede al Roadmap **[presionando aquí][roadmap]**._
 
 ---
 
@@ -41,7 +40,7 @@ Este juego está siendo desarrollado en el motor de novelas visuales **"Ren'Py"*
 El objetivo implícito de este proyecto, es la preservación útil del contenido de los juegos oficiales descontinuados, dándole vida a un nuevo juego para pasar el tiempo.
 
 > [!NOTE]
-> Este repositorio albergará el código fuente del juego, al menos en su mayor parte. Los fragmentos de código sensibles o datos críticos del software serán omitidos o "redactados" de su publicación, por razones obvias.
+> _Este repositorio albergará el código fuente del juego, al menos en su mayor parte. Los fragmentos de código sensibles o datos críticos del software serán omitidos o "redactados" de su publicación, por razones obvias._
 
 ---
 
@@ -50,7 +49,7 @@ El objetivo implícito de este proyecto, es la preservación útil del contenido
 Este Fangame será un **juego de acción rítmica con dinámicas de Gacha** _(no tan tacaño como SIFAS)_, heredando algunas mecánicas similares de SIFAS, incluyendo un Layout intuitivo para cualquier jugador. Los beatmaps rítmicos están hechos para ser divertidos y fieles al ritmo de las voces y de los beats de cada canción. De todos modos, no necesitarás ser un jugador experto en juegos rítmicos, ni mucho menos te vas a partir la cabeza con tantas estadísticas de juego a diferencia del SIFAS. Oh, y tampoco pierdes HP al tocar notas _(léase con ironía)_.
 
 > [!NOTE]
-> Se impartirá más información más detallada sobre la jugabilidad, a medida que el juego se desarrolla y se vaya acercando la fecha de lanzamiento.
+> _Se impartirá más información más detallada sobre la jugabilidad, a medida que el juego se desarrolla y se vaya acercando la fecha de lanzamiento._
 
 ---
 
@@ -59,7 +58,7 @@ Este Fangame será un **juego de acción rítmica con dinámicas de Gacha** _(no
 Este Fangame va a tener **eventos online con otros jugadores** _(no en tiempo real)_, pero la dinámica de los eventos permitirá la competición entre jugadores de igual manera, tanto por Ranking global como por competencias PvP asíncronas.
 
 > [!NOTE]
-> Aún esto está en fase de desarrollo, por ende aún no hay información demasiado clara al respecto.
+> _Aún esto está en fase de desarrollo, por ende aún no hay información demasiado clara al respecto._
 
 ---
 
