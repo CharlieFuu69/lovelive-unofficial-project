@@ -32,7 +32,7 @@
 
 ---
 
-## ¡Bienvenidos a este proyecto! (acerca de este repositorio)
+## ¡Bienvenidos a este proyecto!
 
 **LoveLive! UNOFFICIAL PROJECT** es un Fangame no oficial hecho con cariño, por un LoveLiver, ¡para todos los LoveLivers del mundo!
 
