@@ -77,4 +77,4 @@ Puedes visitar y suscribirte a los siguientes canales de información para mante
 
 ![mit_license](https://github.com/user-attachments/assets/1d738524-7ce6-47c2-b289-58b4fa42f03c)
 
-El código fuente de este juego posee una **licencia MIT (Massachusets Institute of Technology)**. El proyecto no tiene fines de lucro, por ende, se considera **"Freeware"**.
+El código fuente de este juego posee una **[licencia MIT][license]**. El proyecto no tiene fines de lucro, por ende, se considera **"Freeware"**.
