@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-07-28 22:28 (GMT -4)`    | 150                 | 4                  | 55.56% (10/18 tasks)   |
+| `2024-08-10 04:06 (GMT -4)`    | 151                 | 3                  | 55.56% (10/18 tasks)   |
 
 ---
 
@@ -51,7 +51,7 @@
 >
 > - [ ] Affinity panel layout.
 >   > - [ ] Create UI animations for high Tiers.
->   > - [ ] Create progress bar of the current Tier.
+>   > - [x] Create progress bar of the current Tier.
 >   > - [x] Add option to deliver gifts (requires new items in inventory).
 >   > - [ ] Add option to pat the head of your favorite Idol (+ AP).
 >
