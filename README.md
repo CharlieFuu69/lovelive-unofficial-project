@@ -13,8 +13,8 @@
   <img src="https://github.com/user-attachments/assets/c6070e6d-9ca0-4634-8e0b-574be692c810">
 </p>
 
-<h1 align = "center"> LoveLive! UNOFFICIAL PROJECT </h1>
-<h6 align = "center"> Repositorio oficial </h6>
+<h2 align = "center"> LoveLive! UNOFFICIAL PROJECT </h2>
+<h6 align = "center"> Repositorio oficial del Fangame</h6>
 
 [![license-badge]][license] [![renpy-badge]][renpy] ![status-badge]
 
@@ -33,7 +33,7 @@
 
 ## ¡Bienvenidos a este proyecto!
 
-**LoveLive! UNOFFICIAL PROJECT** es un Fangame no oficial hecho con cariño, por un LoveLiver, ¡para todos los LoveLivers del mundo!
+**LoveLive! UNOFFICIAL PROJECT** es un Fangame no oficial hecho con cariño por un LoveLiver, ¡para todos los LoveLivers del mundo!
 
 Este juego está siendo desarrollado en el motor de novelas visuales **"Ren'Py"**, y utiliza parcialmente los Assets 2D del juego oficial descontinuado **"LoveLive! School Idol Festival ALL STARS"**, tales como Sprites, íconos, cartas y clips de video de sus 3DMVs.
 
