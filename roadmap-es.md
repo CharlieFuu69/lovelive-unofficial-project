@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-07-28 22:28 (GMT -4)`    | 150                 | 4                  | 55.56% (10/18 tareas)  |
+| `2024-08-10 04:06 (GMT -4)`    | 151                 | 3                  | 55.56% (10/18 tareas)  |
 
 ---
 
@@ -51,7 +51,7 @@
 >   >
 > - [ ] Diseño del panel de afinidad.
 >   > - [ ] Crear animaciones de UI para Tiers altos.
->   > - [ ] Crear barra de progreso del Tier actual.
+>   > - [x] Crear barra de progreso del Tier actual.
 >   > - [x] Agregar opción de entregar regalos (requiere nuevos items en inventario).
 >   > - [ ] Agregar opción para acariciar la cabeza a tu Idol favorita (+ AP).
 >
