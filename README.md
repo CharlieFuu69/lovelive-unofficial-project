@@ -33,7 +33,7 @@
 
 ## ¡Bienvenidos a este proyecto!
 
-**LoveLive! UNOFFICIAL PROJECT** es un Fangame no oficial hecho con cariño por un LoveLiver, ¡para todos los LoveLivers del mundo!
+**"LoveLive! UNOFFICIAL PROJECT"** es un Fangame no oficial desarrollado con cariño por un LoveLiver, ¡para todos los LoveLivers del mundo!
 
 Este juego está siendo desarrollado en el motor de novelas visuales **"Ren'Py"**, y utiliza parcialmente los Assets 2D del juego oficial descontinuado **"LoveLive! School Idol Festival ALL STARS"**, tales como Sprites, íconos, cartas y clips de video de sus 3DMVs.
 
