@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-08-10 04:06 (GMT -4)`    | 151                 | 3                  | 55.56% (10/18 tasks)   |
+| `2024-08-20 01:38 (GMT -4)`    | 151                 | 2                  | 55.56% (10/18 tasks)   |
 
 ---
 
@@ -50,7 +50,6 @@
 >   > - [x] Create method to store the statistics calculations on attributes.
 >
 > - [ ] Affinity panel layout.
->   > - [ ] Create UI animations for high Tiers.
 >   > - [x] Create progress bar of the current Tier.
 >   > - [x] Add option to deliver gifts (requires new items in inventory).
 >   > - [ ] Add option to pat the head of your favorite Idol (+ AP).
@@ -92,4 +91,14 @@
 
 - [ ] **[PENDING] MAP A TOTAL OF 30 SONGS FOR RELEASE.**
 
-- [ ] **[PENDING] RELEASE PROCEDURE FOR "LOVELIVE! UNOFFICIAL PROJECT".**
+---
+
+### Procedures not considered for progress:
+
+- [ ] **[PENDING] BUG CHECKING AND PREVIOUS CORRECTIONS.**
+
+- [ ] **[PENDING] START OF "CLOSED BETA" PERIOD.**
+
+- [ ] **[PENDING] OFFICIAL RELEASE OF "LOVELIVE! UNOFFICIAL PROJECT".**
+
+- [ ] **[PENDING] GAME SOURCE CODE RELEASE.**
