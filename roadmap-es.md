@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-08-20 18:45 (GMT -4)`    | 152                 | 1                  | 61.11% (10/18 tareas)  |
+| `2024-08-20 18:45 (GMT -4)`    | 152                 | 1                  | 61.11% (11/18 tareas)  |
 
 ---
 
