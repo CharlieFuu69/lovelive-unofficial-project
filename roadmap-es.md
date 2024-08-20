@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-08-10 04:06 (GMT -4)`    | 151                 | 3                  | 55.56% (10/18 tareas)  |
+| `2024-08-20 01:38 (GMT -4)`    | 151                 | 2                  | 55.56% (10/18 tareas)  |
 
 ---
 
@@ -50,7 +50,6 @@
 >   > - [x] Crear método para almacenar los cálculos de estadísticas en atributos.
 >   >
 > - [ ] Diseño del panel de afinidad.
->   > - [ ] Crear animaciones de UI para Tiers altos.
 >   > - [x] Crear barra de progreso del Tier actual.
 >   > - [x] Agregar opción de entregar regalos (requiere nuevos items en inventario).
 >   > - [ ] Agregar opción para acariciar la cabeza a tu Idol favorita (+ AP).
@@ -92,6 +91,14 @@
 
 - [ ] **[PENDIENTE] MAPEAR UN TOTAL DE 30 CANCIONES PARA EL LANZAMIENTO.**
 
-- [ ] **[PENDIENTE] PROCEDIMIENTO DE LIBERACIÓN DE "LOVELIVE! UNOFFICIAL PROJECT".**
+---
 
-- [ ] **[PENDIENTE] PROCEDIMIENTO DE LIBERACIÓN DEL CÓDIGO FUENTE DEL JUEGO (GitHub).**
+### Procedimientos no considerados para el progreso:
+
+- [ ] **[PENDIENTE] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
+
+- [ ] **[PENDIENTE] INICIO DE PERIODO DE "BETA CERRADA".**
+
+- [ ] **[PENDIENTE] LIBERACIÓN DE "LOVELIVE! UNOFFICIAL PROJECT".**
+
+- [ ] **[PENDIENTE] LIBERACIÓN DEL CÓDIGO FUENTE DEL JUEGO (GitHub).**
