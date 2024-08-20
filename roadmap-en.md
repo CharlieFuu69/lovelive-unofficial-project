@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-08-20 01:38 (GMT -4)`    | 151                 | 2                  | 55.56% (10/18 tasks)   |
+| `2024-08-20 18:45 (GMT -4)`    | 152                 | 1                  | 61.11% (11/18 tasks)   |
 
 ---
 
@@ -40,24 +40,11 @@
 
 - [x] **[COMPLETE] HOME MENU.**
 
-- [ ] **[IN PROGRESS] AFFINITY PANEL WITH FAVORITE SCHOOL IDOL.**
-> - [x] Affinity system logic (`MemberAffinity()`).
->   > - [x] Create list of Affinity Tiers, with identifying color and AP range.
->   > - [x] Design heart icons for each Tier.
->   > - [x] Get stored affinity statistics (favorite idol).
->   > - [x] Create method to obtain the level (Tier) of affinity, and its associated title.
->   > - [x] Create method to check Tier promotion.
->   > - [x] Create method to store the statistics calculations on attributes.
+- [x] **[COMPLETE] AFFINITY PANEL WITH FAVORITE SCHOOL IDOL.**
+
+- [ ] **[IN PROGRESS] LIVE SHOW FORMATION PANEL.**
 >
-> - [ ] Affinity panel layout.
->   > - [x] Create progress bar of the current Tier.
->   > - [x] Add option to deliver gifts (requires new items in inventory).
->   > - [ ] Add option to pat the head of your favorite Idol (+ AP).
->
-> - [x] Inventory logic.
->   > - [x] Modify global inventory item search logic.
->   > - [x] Integrate consumable items (Gifts).
->   > - [x] Call items by their respective Key.
+> _[Defining tasks...]_
 
 - [ ] **[WAITING] GAME SECTION: LIVE SHOWS.**
 > - [x] Sequence of the Live Shows.
@@ -78,8 +65,6 @@
 >   >   > - [x] Show PP obtained in the Live Show.
 >   >   > - [x] Show the Rank of the Live Show (CBAS).
 >   >   > - [ ] Choose and display Live Show reward items.
-
-- [ ] **[PENDING] LIVE SHOW FORMATION PANEL.**
 
 - [ ] **[PENDING] MISSION PANEL WITH REWARDS.**
 
