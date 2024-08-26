@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-08-20 18:45 (GMT -4)`    | 152                 | 1                  | 61.11% (11/18 tareas)  |
+| `2024-08-25 22:07 (GMT -4)`    | 154                 | 10                 | 61.11% (11/18 tareas)  |
 
 ---
 
@@ -43,8 +43,28 @@
 - [x] **[COMPLETADO] PANEL DE AFINIDAD CON SCHOOL IDOL FAVORITA.**
 
 - [ ] **[EN CURSO] PANEL DE FORMACIÓN DE LIVE SHOW.**
+> - [ ] Esquemas de Gacha.
+>   > - [x] Cambiar keys de estadísticas (`perfect_pwr`/`great_pwr`) a (`active_pwr`/`passive_pwr`).
+>   > - [ ] Crear esquema de Skills con variantes: Clase 1, Clase 2, etcétera.
+>   > - [ ] Asignar Skills al azar al obtener cartas de tipo SR y UR.
+>   >
 >
-> _[Definiendo tareas...]_
+> - [ ] Colección.
+>   > - [ ] Modificar la clase `Card()` para obtener la Skill de la carta actual.
+>   > - [ ] Modificar visualizador de cartas para indicar la Skill de la carta.
+>
+> - [ ] Preparación de Live Shows.
+>   - [ ] Crear la ventana/escena para configurar la estrategia del Live Show.
+>   - [ ] Crear miniaturas verticales de las cartas para visualizar las cartas de la estrategia.
+>   - [ ] Crear selector de cartas para configurar la estrategia (considerar uso de screen `tab_cardlist`).
+>   - [ ] Crear selector de estrategias (en caso de que el jugador quiera configurar más de una estrategia).
+>
+> - [ ] Lógica de puntuación de Live Shows.
+>   > - [ ] Crear gestor de estrategias con lógica orientada a objetos (clase `LiveStrategy()`).
+>   > - [ ] Crear método de inicialización de estrategia (Si no hay estrategias, creará una estrategia vacía. Si hay estrategias configuradas, las carga).
+>   > - _[Definiendo más tickets]_
+>
+>  _[Definiendo más sub-tareas]_
 
 - [ ] **[EN ESPERA] APARTADO DE JUEGO: LIVE SHOWS.**
 > - [x] Secuencia de los Live Shows.
