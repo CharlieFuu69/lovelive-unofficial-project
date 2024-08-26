@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-08-20 18:45 (GMT -4)`    | 152                 | 1                  | 61.11% (11/18 tasks)   |
+| `2024-08-25 22:07 (GMT -4)`    | 154                 | 10                 | 61.11% (11/18 tasks)   |
 
 ---
 
@@ -43,8 +43,27 @@
 - [x] **[COMPLETE] AFFINITY PANEL WITH FAVORITE SCHOOL IDOL.**
 
 - [ ] **[IN PROGRESS] LIVE SHOW FORMATION PANEL.**
+> - [ ] Gacha Schemes.
+>   > - [x] Change stat keys (`perfect_pwr`/`great_pwr`) to (`active_pwr`/`passive_pwr`).
+>   > - [x] Create Skill Scheme with variants: Class 1, Class 2, etc.
+>   > - [ ] Assign Skills randomly when getting SR and UR type cards.
 >
-> _[Defining tasks...]_
+> - [ ] Collection.
+>   > - [ ] Modify `Card()` class to get the Skill of the current card.
+>   > - [ ] Modify card display to indicate the Skill of the card.
+>
+> - [ ] Live Show Preparation.
+>   > - [ ] Create the window/scene to configure the Live Show strategy.
+>   > - [ ] Create vertical thumbnails of the cards to display the strategy cards.
+>   > - [ ] Create card selector to configure strategy (consider using screen `tab_cardlist`).
+>   > - [ ] Create strategy selector (in case player wants to configure more than one strategy).
+>
+> - [ ] Live Show scoring logic.
+>   > - [ ] Create strategy manager with object-oriented logic (class `LiveStrategy()`).
+>   > - [ ] Create strategy initialization method (If there are no strategies, it will create an empty strategy. If there are strategies configured, it will load them).
+>   > - _[Defining more tickets]_
+>
+> _[Defining more sub-tasks]_
 
 - [ ] **[WAITING] GAME SECTION: LIVE SHOWS.**
 > - [x] Sequence of the Live Shows.
