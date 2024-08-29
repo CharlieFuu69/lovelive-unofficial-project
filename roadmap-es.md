@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-08-25 22:07 (GMT -4)`    | 154                 | 10                 | 61.11% (11/18 tareas)  |
+| `2024-08-29 00:42 (GMT -4)`    | 156                 | 8                  | 61.11% (11/18 tareas)  |
 
 ---
 
@@ -49,9 +49,9 @@
 >   > - [ ] Asignar Skills al azar al obtener cartas de tipo SR y UR.
 >   >
 >
-> - [ ] Colección.
->   > - [ ] Modificar la clase `Card()` para obtener la Skill de la carta actual.
->   > - [ ] Modificar visualizador de cartas para indicar la Skill de la carta.
+> - [x] Colección.
+>   > - [x] Modificar la clase `Card()` para obtener la Skill de la carta actual.
+>   > - [x] Modificar visualizador de cartas para indicar la Skill de la carta.
 >
 > - [ ] Preparación de Live Shows.
 >   - [ ] Crear la ventana/escena para configurar la estrategia del Live Show.
