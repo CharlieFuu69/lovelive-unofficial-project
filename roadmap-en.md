@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-08-25 22:07 (GMT -4)`    | 154                 | 10                 | 61.11% (11/18 tasks)   |
+| `2024-08-29 00:42 (GMT -4)`    | 156                 | 8                 | 61.11% (11/18 tasks)   |
 
 ---
 
@@ -48,9 +48,9 @@
 >   > - [x] Create Skill Scheme with variants: Class 1, Class 2, etc.
 >   > - [ ] Assign Skills randomly when getting SR and UR type cards.
 >
-> - [ ] Collection.
->   > - [ ] Modify `Card()` class to get the Skill of the current card.
->   > - [ ] Modify card display to indicate the Skill of the card.
+> - [x] Collection.
+>   > - [x] Modify `Card()` class to get the Skill of the current card.
+>   > - [x] Modify card display to indicate the Skill of the card.
 >
 > - [ ] Live Show Preparation.
 >   > - [ ] Create the window/scene to configure the Live Show strategy.
