@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-08-29 00:42 (GMT -4)`    | 156                 | 8                 | 61.11% (11/18 tasks)   |
+| `2024-08-29 00:42 (GMT -4)`    | 159                 | 7                  | 61.11% (11/18 tasks)   |
 
 ---
 
@@ -43,10 +43,11 @@
 - [x] **[COMPLETE] AFFINITY PANEL WITH FAVORITE SCHOOL IDOL.**
 
 - [ ] **[IN PROGRESS] LIVE SHOW FORMATION PANEL.**
-> - [ ] Gacha Schemes.
+> - [x] Gacha Schemes.
 >   > - [x] Change stat keys (`perfect_pwr`/`great_pwr`) to (`active_pwr`/`passive_pwr`).
 >   > - [x] Create Skill Scheme with variants: Class 1, Class 2, etc.
->   > - [ ] Assign Skills randomly when getting SR and UR type cards.
+>   > - [x] Assign Skills randomly when getting SR and UR type cards.
+>   > - [x] Skill Assignment: Variant V1 to R type cards, and V1 (or higher) to SR/UR type cards.
 >
 > - [x] Collection.
 >   > - [x] Modify `Card()` class to get the Skill of the current card.
