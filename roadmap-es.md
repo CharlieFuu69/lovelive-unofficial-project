@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-08-29 00:42 (GMT -4)`    | 156                 | 8                  | 61.11% (11/18 tareas)  |
+| `2024-08-29 00:42 (GMT -4)`    | 159                 | 7                  | 61.11% (11/18 tareas)  |
 
 ---
 
@@ -43,11 +43,11 @@
 - [x] **[COMPLETADO] PANEL DE AFINIDAD CON SCHOOL IDOL FAVORITA.**
 
 - [ ] **[EN CURSO] PANEL DE FORMACIÓN DE LIVE SHOW.**
-> - [ ] Esquemas de Gacha.
+> - [x] Esquemas de Gacha.
 >   > - [x] Cambiar keys de estadísticas (`perfect_pwr`/`great_pwr`) a (`active_pwr`/`passive_pwr`).
->   > - [ ] Crear esquema de Skills con variantes: Clase 1, Clase 2, etcétera.
->   > - [ ] Asignar Skills al azar al obtener cartas de tipo SR y UR.
->   >
+>   > - [x] Crear esquema de Skills con variantes: Clase 1, Clase 2, etcétera.
+>   > - [x] Asignar Skills al azar al obtener cartas de tipo SR y UR.
+>   > - [x] Asignación de Skills: Variante V1 a cartas tipo R, y V1 (o superior) a cartas tipo SR/UR.
 >
 > - [x] Colección.
 >   > - [x] Modificar la clase `Card()` para obtener la Skill de la carta actual.
