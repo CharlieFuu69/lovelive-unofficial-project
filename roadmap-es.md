@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-08-29 00:42 (GMT -4)`    | 159                 | 7                  | 61.11% (11/18 tareas)  |
+| `2024-08-29 00:42 (GMT -4)`    | 159                 | 11                 | 61.11% (11/18 tareas)  |
 
 ---
 
@@ -52,6 +52,12 @@
 > - [x] Colección.
 >   > - [x] Modificar la clase `Card()` para obtener la Skill de la carta actual.
 >   > - [x] Modificar visualizador de cartas para indicar la Skill de la carta.
+>
+> - [ ] Modificaciones de lógica en almacenamiento de cartas.
+>   > - [ ] (Gacha) Asignar un identificador único (basado en `UUIDv4`) a cada carta reclamada.
+>   > - [ ] (Gacha) Detectar colisión de UUID para evitar que dos cartas obtengan el mismo UUID.
+>   > - [ ] (Colección) Modificar lógica de cartas en `collection -> cards`, a diccionario (`dict()`).
+>   > - [ ] (Colección) Modificar lógica del gestor de cartas (`SchoolIdolManager()`).
 >
 > - [ ] Preparación de Live Shows.
 >   - [ ] Crear la ventana/escena para configurar la estrategia del Live Show.
