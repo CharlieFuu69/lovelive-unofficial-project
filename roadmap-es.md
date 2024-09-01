@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-08-29 00:42 (GMT -4)`    | 159                 | 11                 | 61.11% (11/18 tareas)  |
+| `2024-09-01 02:13 (GMT -4)`    | 163                 | 7                  | 61.11% (11/18 tareas)  |
 
 ---
 
@@ -53,17 +53,17 @@
 >   > - [x] Modificar la clase `Card()` para obtener la Skill de la carta actual.
 >   > - [x] Modificar visualizador de cartas para indicar la Skill de la carta.
 >
-> - [ ] Modificaciones de lógica en almacenamiento de cartas.
->   > - [ ] (Gacha) Asignar un identificador único (basado en `UUIDv4`) a cada carta reclamada.
->   > - [ ] (Gacha) Detectar colisión de UUID para evitar que dos cartas obtengan el mismo UUID.
->   > - [ ] (Colección) Modificar lógica de cartas en `collection -> cards`, a diccionario (`dict()`).
->   > - [ ] (Colección) Modificar lógica del gestor de cartas (`SchoolIdolManager()`).
+> - [x] Modificaciones de lógica en almacenamiento de cartas.
+>   > - [x] (Gacha) Asignar un identificador único (basado en `UUIDv4`) a cada carta reclamada.
+>   > - [x] (Gacha) Detectar colisión de UUID para evitar que dos cartas obtengan el mismo UUID.
+>   > - [x] (Colección) Modificar lógica de cartas en `collection -> cards`, a diccionario (`dict()`).
+>   > - [x] (Colección) Modificar lógica del gestor de cartas (`SchoolIdolManager()`).
 >
 > - [ ] Preparación de Live Shows.
->   - [ ] Crear la ventana/escena para configurar la estrategia del Live Show.
->   - [ ] Crear miniaturas verticales de las cartas para visualizar las cartas de la estrategia.
->   - [ ] Crear selector de cartas para configurar la estrategia (considerar uso de screen `tab_cardlist`).
->   - [ ] Crear selector de estrategias (en caso de que el jugador quiera configurar más de una estrategia).
+>   > - [ ] Crear miniaturas verticales de las cartas para visualizar las cartas de la estrategia.
+>   > - [ ] Crear la ventana/escena para configurar la estrategia del Live Show.
+>   > - [ ] Crear selector de cartas para configurar la estrategia (considerar uso de screen `tab_cardlist`).
+>   > - [ ] Crear selector de estrategias (en caso de que el jugador quiera configurar más de una estrategia).
 >
 > - [ ] Lógica de puntuación de Live Shows.
 >   > - [ ] Crear gestor de estrategias con lógica orientada a objetos (clase `LiveStrategy()`).
