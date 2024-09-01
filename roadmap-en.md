@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-08-29 00:42 (GMT -4)`    | 159                 | 11                 | 61.11% (11/18 tasks)   |
+| `2024-09-01 02:13 (GMT -4)`    | 163                 | 7                  | 61.11% (11/18 tasks)   |
 
 ---
 
@@ -53,15 +53,15 @@
 >   > - [x] Modify `Card()` class to get the Skill of the current card.
 >   > - [x] Modify card display to indicate the Skill of the card.
 >
-> - [ ] Card storage logic changes.
->   > - [ ] (Gacha) Assign a unique identifier (based on `UUIDv4`) to each claimed card.
->   > - [ ] (Gacha) Detect UUID collision to prevent two cards from getting the same UUID.
->   > - [ ] (Collection) Modify card logic in `collection -> cards`, to dictionary (`dict()`).
->   > - [ ] (Collection) Modify card manager logic (`SchoolIdolManager()`).
+> - [x] Card storage logic changes.
+>   > - [x] (Gacha) Assign a unique identifier (based on `UUIDv4`) to each claimed card.
+>   > - [x] (Gacha) Detect UUID collision to prevent two cards from getting the same UUID.
+>   > - [x] (Collection) Modify card logic in `collection -> cards`, to dictionary (`dict()`).
+>   > - [x] (Collection) Modify card manager logic (`SchoolIdolManager()`).
 >
 > - [ ] Live Show Preparation.
->   > - [ ] Create the window/scene to configure the Live Show strategy.
 >   > - [ ] Create vertical thumbnails of the cards to display the strategy cards.
+>   > - [ ] Create the window/scene to configure the Live Show strategy.
 >   > - [ ] Create card selector to configure strategy (consider using screen `tab_cardlist`).
 >   > - [ ] Create strategy selector (in case player wants to configure more than one strategy).
 >
