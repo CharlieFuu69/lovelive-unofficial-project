@@ -42,7 +42,7 @@
 
 - [x] **[COMPLETE] AFFINITY PANEL WITH FAVORITE SCHOOL IDOL.**
 
-- [ ] **[IN PROGRESS] LIVE SHOW FORMATION PANEL.**
+- [ ] **[IN PROGRESS: 62.50%] LIVE SHOW FORMATION PANEL.**
 > - [x] Gacha Schemes.
 >   > - [x] Change stat keys (`perfect_pwr`/`great_pwr`) to (`active_pwr`/`passive_pwr`).
 >   > - [x] Create Skill Scheme with variants: Class 1, Class 2, etc.
