@@ -42,7 +42,7 @@
 
 - [x] **[COMPLETADO] PANEL DE AFINIDAD CON SCHOOL IDOL FAVORITA.**
 
-- [ ] **[EN CURSO] PANEL DE FORMACIÓN DE LIVE SHOW.**
+- [ ] **[EN CURSO: 62.50%] PANEL DE FORMACIÓN DE LIVE SHOW.**
 > - [x] Esquemas de Gacha.
 >   > - [x] Cambiar keys de estadísticas (`perfect_pwr`/`great_pwr`) a (`active_pwr`/`passive_pwr`).
 >   > - [x] Crear esquema de Skills con variantes: Clase 1, Clase 2, etcétera.
