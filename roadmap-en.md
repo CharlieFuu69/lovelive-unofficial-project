@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-09-01 02:13 (GMT -4)`    | 163                 | 7                  | 61.11% (11/18 tasks)   |
+| `2024-09-07 04:27 (GMT -4)`    | 171                 | 4                  | 61.11% (11/18 tasks)   |
 
 ---
 
@@ -42,7 +42,7 @@
 
 - [x] **[COMPLETE] AFFINITY PANEL WITH FAVORITE SCHOOL IDOL.**
 
-- [ ] **[IN PROGRESS: 62.50%] LIVE SHOW FORMATION PANEL.**
+- [ ] **[IN PROGRESS: 85.71%] LIVE SHOW FORMATION PANEL.**
 > - [x] Gacha Schemes.
 >   > - [x] Change stat keys (`perfect_pwr`/`great_pwr`) to (`active_pwr`/`passive_pwr`).
 >   > - [x] Create Skill Scheme with variants: Class 1, Class 2, etc.
@@ -60,17 +60,18 @@
 >   > - [x] (Collection) Modify card manager logic (`SchoolIdolManager()`).
 >
 > - [ ] Live Show Preparation.
->   > - [ ] Create vertical thumbnails of the cards to display the strategy cards.
->   > - [ ] Create the window/scene to configure the Live Show strategy.
+>   > - [ ] Strategy/formation manager:
+>   >   > - [x] Create strategy class (`LiveStrategy()`).
+>   >   > - [x] Initialize collection and strategy in class constructor.
+>   >   > - [x] Split formation into active and passive strategy.
+>   >   > - [x] Get passive strategy power (LP).
+>   >   > - [x] Get average active strategy power (LP).
+>   >   > - [x] Get Skill of active cards and prepare data usable by RhythmBeats engine.
+>   >   > - [ ] Create method to add/replace card from a slot in formation.
+>   > - [x] Create vertical thumbnails of the cards to display the strategy cards.
+>   > - [x] Create the window/scene to configure the Live Show strategy.
 >   > - [ ] Create card selector to configure strategy (consider using screen `tab_cardlist`).
->   > - [ ] Create strategy selector (in case player wants to configure more than one strategy).
->
-> - [ ] Live Show scoring logic.
->   > - [ ] Create strategy manager with object-oriented logic (class `LiveStrategy()`).
->   > - [ ] Create strategy initialization method (If there are no strategies, it will create an empty strategy. If there are strategies configured, it will load them).
->   > - _[Defining more tickets]_
->
-> _[Defining more sub-tasks]_
+>   > - [ ] Create a card preview window when opening the card selector.
 
 - [ ] **[WAITING] GAME SECTION: LIVE SHOWS.**
 > - [x] Sequence of the Live Shows.
