@@ -14,11 +14,11 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-09-01 02:13 (GMT -4)`    | 163                 | 7                  | 61.11% (11/18 tareas)  |
+| `2024-09-07 04:27 (GMT -4)`    | 171                 | 4                  | 61.11% (11/18 tareas)  |
 
 ---
 
-### Checklist de características:
+### Tasklist de características:
 
 - [x] **[COMPLETADO] REACONDICIONAMIENTO DEL NÚCLEO DE "REN'PY RHYTHMBEATS!"**
 
@@ -42,7 +42,7 @@
 
 - [x] **[COMPLETADO] PANEL DE AFINIDAD CON SCHOOL IDOL FAVORITA.**
 
-- [ ] **[EN CURSO: 62.50%] PANEL DE FORMACIÓN DE LIVE SHOW.**
+- [ ] **[EN CURSO: 85.71%] PANEL DE FORMACIÓN DE LIVE SHOW.**
 > - [x] Esquemas de Gacha.
 >   > - [x] Cambiar keys de estadísticas (`perfect_pwr`/`great_pwr`) a (`active_pwr`/`passive_pwr`).
 >   > - [x] Crear esquema de Skills con variantes: Clase 1, Clase 2, etcétera.
@@ -60,17 +60,19 @@
 >   > - [x] (Colección) Modificar lógica del gestor de cartas (`SchoolIdolManager()`).
 >
 > - [ ] Preparación de Live Shows.
->   > - [ ] Crear miniaturas verticales de las cartas para visualizar las cartas de la estrategia.
->   > - [ ] Crear la ventana/escena para configurar la estrategia del Live Show.
+>   > - [ ] Gestor de estrategia/formación:
+>   >   > - [x] Crear clase de estrategia (`LiveStrategy()`).
+>   >   > - [x] Inicializar la colección y la estrategia en el constructor de la clase.
+>   >   > - [x] Dividir la formación en estrategia activa y pasiva.
+>   >   > - [x] Obtener el poder de la estrategia pasiva (LP).
+>   >   > - [x] Obtener el poder promedio de la estrategia activa (LP).
+>   >   > - [x] Obtener Skill de las cartas activas y preparar los datos utilizables por el motor RhythmBeats.
+>   >   > - [ ] Crear método para agregar/reemplazar carta de un slot en la formación.
+>   >       
+>   > - [x] Crear miniaturas verticales de las cartas para visualizar las cartas de la estrategia.
+>   > - [x] Crear la ventana/escena para configurar la estrategia del Live Show.
 >   > - [ ] Crear selector de cartas para configurar la estrategia (considerar uso de screen `tab_cardlist`).
->   > - [ ] Crear selector de estrategias (en caso de que el jugador quiera configurar más de una estrategia).
->
-> - [ ] Lógica de puntuación de Live Shows.
->   > - [ ] Crear gestor de estrategias con lógica orientada a objetos (clase `LiveStrategy()`).
->   > - [ ] Crear método de inicialización de estrategia (Si no hay estrategias, creará una estrategia vacía. Si hay estrategias configuradas, las carga).
->   > - _[Definiendo más tickets]_
->
->  _[Definiendo más sub-tareas]_
+>   > - [ ] Crear ventana de previsualización de una carta al abrir el selector de cartas.
 
 - [ ] **[EN ESPERA] APARTADO DE JUEGO: LIVE SHOWS.**
 > - [x] Secuencia de los Live Shows.
