@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-09-07 04:27 (GMT -4)`    | 171                 | 4                  | 61.11% (11/18 tareas)  |
+| `2024-09-09 00:58 (GMT -3)`    | 173                 | 2                  | 61.11% (11/18 tareas)  |
 
 ---
 
@@ -42,7 +42,7 @@
 
 - [x] **[COMPLETADO] PANEL DE AFINIDAD CON SCHOOL IDOL FAVORITA.**
 
-- [ ] **[EN CURSO: 85.71%] PANEL DE FORMACIÓN DE LIVE SHOW.**
+- [ ] **[EN CURSO: 95.23%] PANEL DE FORMACIÓN DE LIVE SHOW.**
 > - [x] Esquemas de Gacha.
 >   > - [x] Cambiar keys de estadísticas (`perfect_pwr`/`great_pwr`) a (`active_pwr`/`passive_pwr`).
 >   > - [x] Crear esquema de Skills con variantes: Clase 1, Clase 2, etcétera.
@@ -60,18 +60,18 @@
 >   > - [x] (Colección) Modificar lógica del gestor de cartas (`SchoolIdolManager()`).
 >
 > - [ ] Preparación de Live Shows.
->   > - [ ] Gestor de estrategia/formación:
+>   > - [x] Gestor de estrategia/formación:
 >   >   > - [x] Crear clase de estrategia (`LiveStrategy()`).
 >   >   > - [x] Inicializar la colección y la estrategia en el constructor de la clase.
 >   >   > - [x] Dividir la formación en estrategia activa y pasiva.
 >   >   > - [x] Obtener el poder de la estrategia pasiva (LP).
 >   >   > - [x] Obtener el poder promedio de la estrategia activa (LP).
 >   >   > - [x] Obtener Skill de las cartas activas y preparar los datos utilizables por el motor RhythmBeats.
->   >   > - [ ] Crear método para agregar/reemplazar carta de un slot en la formación.
+>   >   > - [x] Crear método para agregar/reemplazar carta de un slot en la formación.
 >   >       
 >   > - [x] Crear miniaturas verticales de las cartas para visualizar las cartas de la estrategia.
 >   > - [x] Crear la ventana/escena para configurar la estrategia del Live Show.
->   > - [ ] Crear selector de cartas para configurar la estrategia (considerar uso de screen `tab_cardlist`).
+>   > - [x] Crear selector de cartas para configurar la estrategia (considerar uso de screen `tab_cardlist`).
 >   > - [ ] Crear ventana de previsualización de una carta al abrir el selector de cartas.
 
 - [ ] **[EN ESPERA] APARTADO DE JUEGO: LIVE SHOWS.**
