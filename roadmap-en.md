@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-09-09 00:58 (GMT -3)`    | 173                 | 2                  | 61.11% (11/18 tasks)   |
+| `2024-09-18 21:00 (GMT -3)`    | 174                 | 1                  | 66.66% (12/18 tasks)   |
 
 ---
 
@@ -42,39 +42,14 @@
 
 - [x] **[COMPLETE] AFFINITY PANEL WITH FAVORITE SCHOOL IDOL.**
 
-- [ ] **[IN PROGRESS: 95.23%] LIVE SHOW FORMATION PANEL.**
-> - [x] Gacha Schemes.
->   > - [x] Change stat keys (`perfect_pwr`/`great_pwr`) to (`active_pwr`/`passive_pwr`).
->   > - [x] Create Skill Scheme with variants: Class 1, Class 2, etc.
->   > - [x] Assign Skills randomly when getting SR and UR type cards.
->   > - [x] Skill Assignment: Variant V1 to R type cards, and V1 (or higher) to SR/UR type cards.
->
-> - [x] Collection.
->   > - [x] Modify `Card()` class to get the Skill of the current card.
->   > - [x] Modify card display to indicate the Skill of the card.
->
-> - [x] Card storage logic changes.
->   > - [x] (Gacha) Assign a unique identifier (based on `UUIDv4`) to each claimed card.
->   > - [x] (Gacha) Detect UUID collision to prevent two cards from getting the same UUID.
->   > - [x] (Collection) Modify card logic in `collection -> cards`, to dictionary (`dict()`).
->   > - [x] (Collection) Modify card manager logic (`SchoolIdolManager()`).
->
-> - [ ] Live Show Preparation.
->   > - [x] Strategy/formation manager:
->   >   > - [x] Create strategy class (`LiveStrategy()`).
->   >   > - [x] Initialize collection and strategy in class constructor.
->   >   > - [x] Split formation into active and passive strategy.
->   >   > - [x] Get passive strategy power (LP).
->   >   > - [x] Get average active strategy power (LP).
->   >   > - [x] Get Skill of active cards and prepare data usable by RhythmBeats engine.
->   >   > - [x] Create method to add/replace card from a slot in formation.
->   >
->   > - [x] Create vertical thumbnails of the cards to display the strategy cards.
->   > - [x] Create the window/scene to configure the Live Show strategy.
->   > - [x] Create card selector to configure strategy (consider using screen `tab_cardlist`).
->   > - [ ] Create a card preview window when opening the card selector.
+- [x] **[COMPLETE] LIVE SHOW FORMATION PANEL.**
 
-- [ ] **[WAITING] GAME SECTION: LIVE SHOWS.**
+- [ ] **[IN PROGRESS: --.--%] GAME SECTION: LIVE SHOWS.**
+> - [ ] Scoring logic in Live Shows.
+>   > - [ ] Get active strategy sum as base score per card.
+>   > - [ ] Get list of active cards to be cycled through for each note played.
+>   > - [ ] _[Defining more tickets...]_
+>
 > - [x] Sequence of the Live Shows.
 >   > - [x] Show cover art, title, Full Combo and BPM of the song to play.
 >   > - [x] Instantiate the game as a Ren'Py RhythmBeats core object! (`RhythmPlayground()`).
