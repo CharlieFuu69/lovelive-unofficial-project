@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-09-09 00:58 (GMT -3)`    | 173                 | 2                  | 61.11% (11/18 tareas)  |
+| `2024-09-18 21:00 (GMT -3)`    | 174                 | 1                  | 66.66% (12/18 tareas)  |
 
 ---
 
@@ -42,39 +42,14 @@
 
 - [x] **[COMPLETADO] PANEL DE AFINIDAD CON SCHOOL IDOL FAVORITA.**
 
-- [ ] **[EN CURSO: 95.23%] PANEL DE FORMACIÓN DE LIVE SHOW.**
-> - [x] Esquemas de Gacha.
->   > - [x] Cambiar keys de estadísticas (`perfect_pwr`/`great_pwr`) a (`active_pwr`/`passive_pwr`).
->   > - [x] Crear esquema de Skills con variantes: Clase 1, Clase 2, etcétera.
->   > - [x] Asignar Skills al azar al obtener cartas de tipo SR y UR.
->   > - [x] Asignación de Skills: Variante V1 a cartas tipo R, y V1 (o superior) a cartas tipo SR/UR.
->
-> - [x] Colección.
->   > - [x] Modificar la clase `Card()` para obtener la Skill de la carta actual.
->   > - [x] Modificar visualizador de cartas para indicar la Skill de la carta.
->
-> - [x] Modificaciones de lógica en almacenamiento de cartas.
->   > - [x] (Gacha) Asignar un identificador único (basado en `UUIDv4`) a cada carta reclamada.
->   > - [x] (Gacha) Detectar colisión de UUID para evitar que dos cartas obtengan el mismo UUID.
->   > - [x] (Colección) Modificar lógica de cartas en `collection -> cards`, a diccionario (`dict()`).
->   > - [x] (Colección) Modificar lógica del gestor de cartas (`SchoolIdolManager()`).
->
-> - [ ] Preparación de Live Shows.
->   > - [x] Gestor de estrategia/formación:
->   >   > - [x] Crear clase de estrategia (`LiveStrategy()`).
->   >   > - [x] Inicializar la colección y la estrategia en el constructor de la clase.
->   >   > - [x] Dividir la formación en estrategia activa y pasiva.
->   >   > - [x] Obtener el poder de la estrategia pasiva (LP).
->   >   > - [x] Obtener el poder promedio de la estrategia activa (LP).
->   >   > - [x] Obtener Skill de las cartas activas y preparar los datos utilizables por el motor RhythmBeats.
->   >   > - [x] Crear método para agregar/reemplazar carta de un slot en la formación.
->   >       
->   > - [x] Crear miniaturas verticales de las cartas para visualizar las cartas de la estrategia.
->   > - [x] Crear la ventana/escena para configurar la estrategia del Live Show.
->   > - [x] Crear selector de cartas para configurar la estrategia (considerar uso de screen `tab_cardlist`).
->   > - [ ] Crear ventana de previsualización de una carta al abrir el selector de cartas.
+- [x] **[COMPLETADO] PANEL DE FORMACIÓN DE LIVE SHOW.**
 
-- [ ] **[EN ESPERA] APARTADO DE JUEGO: LIVE SHOWS.**
+- [ ] **[EN CURSO: 82.35%] APARTADO DE JUEGO: LIVE SHOWS.**
+> - [ ] Lógica de puntuación en Live Shows.
+>   > - [ ] Obtener sumatoria de estrategia activa como puntuación base por carta.
+>   > - [ ] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
+>   > - [ ] _[Definiendo más tickets...]_
+>
 > - [x] Secuencia de los Live Shows.
 >   > - [x] Mostrar portada, título, Full Combo y BPM de la canción a jugar.
 >   > - [x] Instanciar la partida como objeto del núcleo de Ren'Py RhythmBeats! (`RhythmPlayground()`).
