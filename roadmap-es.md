@@ -48,11 +48,20 @@
 > - [ ] Lógica de puntuación en Live Shows.
 >   > - [ ] Obtener sumatoria de estrategia activa como puntuación base por carta.
 >   > - [ ] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
+>   > - [ ] Crear subclase de RhythmBeats (`RhythmSessionNormal()`) para el modo de juego "Un solo jugador".
+>   > - [ ] La subclase debe tener un contador de notas para estado de reposo y estado activo de Skills.
+>   > - [ ] El método `periodic_tap()` debe ser readaptado para la lógica de puntuación por estrategias.
+>   > - [ ] El método `periodic_tap()` debe ejecutar una rotación de cartas activas por cada nota tocada.
+>   > - [ ] El método `periodic_tap()` debe reiniciar automáticamente el índice de rotación para evitar errores de tipo `IndexError`.
+>   > - [ ] Inspector y disparador de Skills.
+>   >   > - [ ] Disparar Skill "Combo Skill" (Sumar `m` LP para `n` cantidad de notas).
+>   >   > - [ ] Disparar Skill "Combo Skill" (Incrementar en `m`% el LP para `n` cantidad de notas).
+>   > 
 >   > - [ ] _[Definiendo más tickets...]_
 >
 > - [x] Secuencia de los Live Shows.
 >   > - [x] Mostrar portada, título, Full Combo y BPM de la canción a jugar.
->   > - [x] Instanciar la partida como objeto del núcleo de Ren'Py RhythmBeats! (`RhythmPlayground()`).
+>   > - [x] Instanciar la partida como objeto del núcleo de Ren'Py RhythmBeats! (`RhythmSessionNormal()`).
 >   > - [x] Mostrar juicio del Live Show al finalizar la partida (Live Cleared!, Full Combo!, All Perfect!).
 >   > - [x] Mostrar XP obtenida por performance del Live Show.
 >   >   > - [x] XP por juicio del Live Show.
