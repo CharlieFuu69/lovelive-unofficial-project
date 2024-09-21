@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-09-18 21:00 (GMT -3)`    | 174                 | 1                  | 66.66% (12/18 tasks)   |
+| `2024-09-21 14:55 (GMT -3)`    | 180                 | 4                  | 66.66% (12/18 tasks)   |
 
 ---
 
@@ -44,11 +44,19 @@
 
 - [x] **[COMPLETE] LIVE SHOW FORMATION PANEL.**
 
-- [ ] **[IN PROGRESS: --.--%] GAME SECTION: LIVE SHOWS.**
+- [ ] **[IN PROGRESS: `20/24 (83.33%)`] GAME SECTION: LIVE SHOWS.**
 > - [ ] Scoring logic in Live Shows.
->   > - [ ] Get active strategy sum as base score per card.
->   > - [ ] Get list of active cards to be cycled through for each note played.
->   > - [ ] _[Defining more tickets...]_
+>   > - [x] Get active strategy summation as base score per card.
+>   > - [x] Get list of active cards to be cycled through for each note played.
+>   > - [x] Create subclass of RhythmBeats (`RhythmSessionNormal()`) for "Single Player" game mode.
+>   > - [x] Subclass must have a note counter for idle and active state of Skills.
+>   > - [x] `periodic_tap()` method must perform a rotation of active cards for each note played.
+>   > - [x] `periodic_tap()` method must automatically reset rotation rate to avoid `IndexError` errors.
+>   > - [ ] Skills inspector and trigger.
+>   >   > - [ ] Trigger Skill "Combo Skill" (Add `m` LP for `n` number of notes).
+>   >   > - [ ] Trigger Skill "Combo Skill" (Increase LP by `m`% for `n` number of notes).
+>   >
+>   > _[Waiting for more inputs...]_
 >
 > - [x] Sequence of the Live Shows.
 >   > - [x] Show cover art, title, Full Combo and BPM of the song to play.
