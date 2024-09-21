@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-09-18 21:00 (GMT -3)`    | 174                 | 1                  | 66.66% (12/18 tareas)  |
+| `2024-09-21 14:55 (GMT -3)`    | 180                 | 4                  | 66.66% (12/18 tareas)  |
 
 ---
 
@@ -44,20 +44,19 @@
 
 - [x] **[COMPLETADO] PANEL DE FORMACIÓN DE LIVE SHOW.**
 
-- [ ] **[EN CURSO: 82.35%] APARTADO DE JUEGO: LIVE SHOWS.**
+- [ ] **[EN CURSO: `20/24 (83.33%)`] APARTADO DE JUEGO: LIVE SHOWS.**
 > - [ ] Lógica de puntuación en Live Shows.
->   > - [ ] Obtener sumatoria de estrategia activa como puntuación base por carta.
->   > - [ ] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
->   > - [ ] Crear subclase de RhythmBeats (`RhythmSessionNormal()`) para el modo de juego "Un solo jugador".
->   > - [ ] La subclase debe tener un contador de notas para estado de reposo y estado activo de Skills.
->   > - [ ] El método `periodic_tap()` debe ser readaptado para la lógica de puntuación por estrategias.
->   > - [ ] El método `periodic_tap()` debe ejecutar una rotación de cartas activas por cada nota tocada.
->   > - [ ] El método `periodic_tap()` debe reiniciar automáticamente el índice de rotación para evitar errores de tipo `IndexError`.
+>   > - [x] Obtener sumatoria de estrategia activa como puntuación base por carta.
+>   > - [x] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
+>   > - [x] Crear subclase de RhythmBeats (`RhythmSessionNormal()`) para el modo de juego "Un solo jugador".
+>   > - [x] La subclase debe tener un contador de notas para estado de reposo y estado activo de Skills.
+>   > - [x] El método `periodic_tap()` debe ejecutar una rotación de cartas activas por cada nota tocada.
+>   > - [x] El método `periodic_tap()` debe reiniciar automáticamente el índice de rotación para evitar errores de tipo `IndexError`.
 >   > - [ ] Inspector y disparador de Skills.
 >   >   > - [ ] Disparar Skill "Combo Skill" (Sumar `m` LP para `n` cantidad de notas).
 >   >   > - [ ] Disparar Skill "Combo Skill" (Incrementar en `m`% el LP para `n` cantidad de notas).
 >   > 
->   > - [ ] _[Definiendo más tickets...]_
+>   > _[Esperando más tickets...]_
 >
 > - [x] Secuencia de los Live Shows.
 >   > - [x] Mostrar portada, título, Full Combo y BPM de la canción a jugar.
