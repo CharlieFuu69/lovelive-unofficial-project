@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-09-21 14:55 (GMT -3)`    | 180                 | 4                  | 66.66% (12/18 tareas)  |
+| `2024-09-23 23:07 (GMT -3)`    | 180                 | 9                  | 66.66% (12/18 tareas)  |
 
 ---
 
@@ -44,7 +44,7 @@
 
 - [x] **[COMPLETADO] PANEL DE FORMACIÓN DE LIVE SHOW.**
 
-- [ ] **[EN CURSO: `20/24 (83.33%)`] APARTADO DE JUEGO: LIVE SHOWS.**
+- [ ] **[EN CURSO: `20/28 (71.43%)`] APARTADO DE JUEGO: LIVE SHOWS.**
 > - [ ] Lógica de puntuación en Live Shows.
 >   > - [x] Obtener sumatoria de estrategia activa como puntuación base por carta.
 >   > - [x] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
@@ -52,9 +52,16 @@
 >   > - [x] La subclase debe tener un contador de notas para estado de reposo y estado activo de Skills.
 >   > - [x] El método `periodic_tap()` debe ejecutar una rotación de cartas activas por cada nota tocada.
 >   > - [x] El método `periodic_tap()` debe reiniciar automáticamente el índice de rotación para evitar errores de tipo `IndexError`.
+>   > - [ ] Establecer puntuación base de un Fever Time.
+>   > - [ ] Definir los tiempos de Fever Time en el Dataset de canciones.
 >   > - [ ] Inspector y disparador de Skills.
->   >   > - [ ] Disparar Skill "Combo Skill" (Sumar `m` LP para `n` cantidad de notas).
->   >   > - [ ] Disparar Skill "Combo Skill" (Incrementar en `m`% el LP para `n` cantidad de notas).
+>   >   > - [ ] Disparar Skills de tipo `combo->int` (Sumar `m` LP para `n` cantidad de notas).
+>   >   > - [ ] Disparar Skills de tipo `combo->pct` (Incrementar en `m`% el LP para `n` cantidad de notas).
+>   >   > - [ ] Disparar Skills de tipo `fever` (Sumar `m` LP durante el Fever Time).
+>   >
+>   > - [ ] Reacondicionamiento de RhythmBeats.
+>   >   > - [ ] Crear método tipo Callback `periodic_loop()`, cuyo llamado debe ser constante en el bucle principal del sistema rítmico.
+>   >   > - [ ] Sobreescribir método `periodic_loop()` con la lógica de supervisión de Fever Time
 >   > 
 >   > _[Esperando más tickets...]_
 >
