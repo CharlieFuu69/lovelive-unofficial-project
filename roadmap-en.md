@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-09-21 14:55 (GMT -3)`    | 180                 | 4                  | 66.66% (12/18 tasks)   |
+| `2024-09-23 23:07 (GMT -3)`    | 180                 | 9                  | 66.66% (12/18 tasks)   |
 
 ---
 
@@ -44,19 +44,26 @@
 
 - [x] **[COMPLETE] LIVE SHOW FORMATION PANEL.**
 
-- [ ] **[IN PROGRESS: `20/24 (83.33%)`] GAME SECTION: LIVE SHOWS.**
+- [ ] **[IN PROGRESS: `20/28 (71.43%)`] GAME SECTION: LIVE SHOWS.**
 > - [ ] Scoring logic in Live Shows.
 >   > - [x] Get active strategy summation as base score per card.
 >   > - [x] Get list of active cards to be cycled through for each note played.
 >   > - [x] Create subclass of RhythmBeats (`RhythmSessionNormal()`) for "Single Player" game mode.
->   > - [x] Subclass must have a note counter for idle and active state of Skills.
->   > - [x] `periodic_tap()` method must perform a rotation of active cards for each note played.
->   > - [x] `periodic_tap()` method must automatically reset rotation rate to avoid `IndexError` errors.
+>   > - [x] The subclass must have a note counter for idle and active Skills state.
+>   > - [x] The `periodic_tap()` method must execute a rotation of active cards for each note played.
+>   > - [x] The `periodic_tap()` method must automatically reset the rotation index to avoid `IndexError` errors.
+>   > - [ ] Set base score for a Fever Time.
+>   > - [ ] Define Fever Time times in the Song Dataset.
 >   > - [ ] Skills inspector and trigger.
->   >   > - [ ] Trigger Skill "Combo Skill" (Add `m` LP for `n` number of notes).
->   >   > - [ ] Trigger Skill "Combo Skill" (Increase LP by `m`% for `n` number of notes).
+>   >   > - [ ] Trigger `combo->int` type Skills (Add `m` LP for `n` number of notes).
+>   >   > - [ ] Trigger `combo->pct` type Skills (Increase LP by `m`% for `n` number of notes).
+>   >   > - [ ] Trigger `fever` type Skills (Add `m` LP during Fever Time).
 >   >
->   > _[Waiting for more inputs...]_
+>   > - [ ] RhythmBeats engine reconditioning.
+>   >   > - [ ] Create `periodic_loop()` type Callback method, which must be called constantly in the main loop of the rhythm system.
+>   >   > - [ ] Override `periodic_loop()` method with Fever Time monitoring logic
+>   >
+>   > _[Waiting for more tickets...]_
 >
 > - [x] Sequence of the Live Shows.
 >   > - [x] Show cover art, title, Full Combo and BPM of the song to play.
