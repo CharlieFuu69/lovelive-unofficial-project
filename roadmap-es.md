@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-09-23 23:07 (GMT -3)`    | 180                 | 9                  | 66.66% (12/18 tareas)  |
+| `2024-09-23 23:40 (GMT -3)`    | 182                 | 7                  | 66.66% (12/18 tareas)  |
 
 ---
 
@@ -44,7 +44,7 @@
 
 - [x] **[COMPLETADO] PANEL DE FORMACIÓN DE LIVE SHOW.**
 
-- [ ] **[EN CURSO: `20/28 (71.43%)`] APARTADO DE JUEGO: LIVE SHOWS.**
+- [ ] **[EN CURSO: `22/30 (73.33%)`] APARTADO DE JUEGO: LIVE SHOWS.**
 > - [ ] Lógica de puntuación en Live Shows.
 >   > - [x] Obtener sumatoria de estrategia activa como puntuación base por carta.
 >   > - [x] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
@@ -55,8 +55,8 @@
 >   > - [ ] Establecer puntuación base de un Fever Time.
 >   > - [ ] Definir los tiempos de Fever Time en el Dataset de canciones.
 >   > - [ ] Inspector y disparador de Skills.
->   >   > - [ ] Disparar Skills de tipo `combo->int` (Sumar `m` LP para `n` cantidad de notas).
->   >   > - [ ] Disparar Skills de tipo `combo->pct` (Incrementar en `m`% el LP para `n` cantidad de notas).
+>   >   > - [x] Disparar Skills de tipo `combo->int` (Sumar `m` LP para `n` cantidad de notas).
+>   >   > - [x] Disparar Skills de tipo `combo->pct` (Incrementar en `m`% el LP para `n` cantidad de notas).
 >   >   > - [ ] Disparar Skills de tipo `fever` (Sumar `m` LP durante el Fever Time).
 >   >
 >   > - [ ] Reacondicionamiento de RhythmBeats.
@@ -68,6 +68,8 @@
 > - [x] Secuencia de los Live Shows.
 >   > - [x] Mostrar portada, título, Full Combo y BPM de la canción a jugar.
 >   > - [x] Instanciar la partida como objeto del núcleo de Ren'Py RhythmBeats! (`RhythmSessionNormal()`).
+>   > - [ ] Mostrar Skills activas.
+>   > - [ ] Mostrar fases de Fever Time (Fever Challenge, Fever Time).
 >   > - [x] Mostrar juicio del Live Show al finalizar la partida (Live Cleared!, Full Combo!, All Perfect!).
 >   > - [x] Mostrar XP obtenida por performance del Live Show.
 >   >   > - [x] XP por juicio del Live Show.
