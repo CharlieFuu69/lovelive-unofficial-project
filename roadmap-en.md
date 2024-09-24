@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-09-23 23:07 (GMT -3)`    | 180                 | 9                  | 66.66% (12/18 tasks)   |
+| `2024-09-23 23:40 (GMT -3)`    | 182                 | 7                  | 66.66% (12/18 tasks)   |
 
 ---
 
@@ -44,7 +44,7 @@
 
 - [x] **[COMPLETE] LIVE SHOW FORMATION PANEL.**
 
-- [ ] **[IN PROGRESS: `20/28 (71.43%)`] GAME SECTION: LIVE SHOWS.**
+- [ ] **[IN PROGRESS: `22/30 (73.33%)`] GAME SECTION: LIVE SHOWS.**
 > - [ ] Scoring logic in Live Shows.
 >   > - [x] Get active strategy summation as base score per card.
 >   > - [x] Get list of active cards to be cycled through for each note played.
@@ -53,10 +53,10 @@
 >   > - [x] The `periodic_tap()` method must execute a rotation of active cards for each note played.
 >   > - [x] The `periodic_tap()` method must automatically reset the rotation index to avoid `IndexError` errors.
 >   > - [ ] Set base score for a Fever Time.
->   > - [ ] Define Fever Time times in the Song Dataset.
+>   > - [ ] Define Fever Time timebase in the Song Dataset.
 >   > - [ ] Skills inspector and trigger.
->   >   > - [ ] Trigger `combo->int` type Skills (Add `m` LP for `n` number of notes).
->   >   > - [ ] Trigger `combo->pct` type Skills (Increase LP by `m`% for `n` number of notes).
+>   >   > - [x] Trigger `combo->int` type Skills (Add `m` LP for `n` number of notes).
+>   >   > - [x] Trigger `combo->pct` type Skills (Increase LP by `m`% for `n` number of notes).
 >   >   > - [ ] Trigger `fever` type Skills (Add `m` LP during Fever Time).
 >   >
 >   > - [ ] RhythmBeats engine reconditioning.
@@ -68,6 +68,8 @@
 > - [x] Sequence of the Live Shows.
 >   > - [x] Show cover art, title, Full Combo and BPM of the song to play.
 >   > - [x] Instantiate the game as a Ren'Py RhythmBeats core object! (`RhythmPlayground()`).
+>   > - [ ] Show active Skills.
+>   > - [ ] Show Fever Time phases (Fever Challenge, Fever Time).
 >   > - [x] Show Live Show judgment at the end of the game (Live Cleared!, Full Combo!, All Perfect!).
 >   > - [x] Show XP obtained by Live Show performance.
 >   >   > - [x] XP for Live Show judgment.
