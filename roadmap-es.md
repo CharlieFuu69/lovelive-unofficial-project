@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-10-20 23:31 (GMT -3)`    | 186                 | 1                  | 70.58% (12/17 tareas)  |
+| `2024-10-20 23:31 (GMT -3)`    | 186                 | 1                  | 66.67% (12/18 tareas)  |
 
 ---
 
@@ -44,7 +44,7 @@
 
 - [x] **[COMPLETADO] PANEL DE FORMACIÓN DE LIVE SHOW.**
 
-- [ ] **[EN CURSO: `28/29 (96.55%)`] APARTADO DE JUEGO: LIVE SHOWS.**
+- [ ] **[EN CURSO: `28/32 (87.50%)`] APARTADO DE JUEGO: LIVE SHOWS.**
 > - [x] Lógica de puntuación en Live Shows.
 >   > - [x] Obtener sumatoria de estrategia activa como puntuación base por carta.
 >   > - [x] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
@@ -82,6 +82,9 @@
 >   >   > - [x] Mostrar bandera de nuevo récord.
 >   >   > - [x] Mostrar LP obtenido en el Live Show.
 >   >   > - [x] Mostrar el Rank del Live Show (CBAS).
+>   >   > - [ ] Agregar conteo de notas FAST/SLOW.
+>   >   > - [ ] Mostrar sprite de la School Idol correspondiente a la carta MVP del Live Show.
+>   >   > - [ ] Mostrar animación de Subida de nivel de jugador.
 >   >   > - [ ] Escoger y mostrar los ítems de recompensa del Live Show.
 
 - [ ] **[PENDIENTE] PANEL DE PERFIL DEL JUGADOR.**
@@ -89,6 +92,8 @@
 - [ ] **[PENDIENTE] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Fan ID, Database).**
 
 - [ ] **[PENDIENTE] EVENTOS ONLINE ASÍNCRONOS (MODOS DE JUEGO Y BACKEND DEL SERVIDOR).**
+
+- [ ] **[PENDIENTE] TIENDA DE ATUENDOS.**
 
 - [ ] **[PENDIENTE] MAPEAR UN TOTAL DE 30 CANCIONES PARA EL LANZAMIENTO.**
 
