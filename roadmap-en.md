@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-10-20 23:31 (GMT -3)`    | 186                 | 1                  | 70.58% (12/17 tasks)   |
+| `2024-10-20 23:31 (GMT -3)`    | 186                 | 1                  | 66.67% (12/18 tasks)   |
 
 ---
 
@@ -44,7 +44,7 @@
 
 - [x] **[COMPLETE] LIVE SHOW FORMATION PANEL.**
 
-- [ ] **[IN PROGRESS: `28/29 (96.55%)`] GAME SECTION: LIVE SHOWS.**
+- [ ] **[IN PROGRESS: `28/32 (87.50%)`] GAME SECTION: LIVE SHOWS.**
 > - [x] Scoring logic in Live Shows.
 >   > - [x] Get active strategy summation as base score per card.
 >   > - [x] Get list of active cards to be cycled through for each note played.
@@ -82,6 +82,9 @@
 >   >   > - [x] Show new record flag.
 >   >   > - [x] Show PP obtained in the Live Show.
 >   >   > - [x] Show the Rank of the Live Show (CBAS).
+>   >   > - [ ] Add FAST/SLOW note counting.
+>   >   > - [ ] Show School Idol sprite corresponding to the MVP card of the Live Show.
+>   >   > - [ ] Show Player Level Up animation.
 >   >   > - [ ] Choose and display Live Show reward items.
 
 - [ ] **[PENDING] PLAYER PROFILE PANEL.**
@@ -89,6 +92,8 @@
 - [ ] **[PENDING] PLAYER ACCOUNT SYSTEM (LoveLive Fan ID, Database).**
 
 - [ ] **[PENDING] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
+
+- [ ] **[PENDING] OUTFIT SHOP.**
 
 - [ ] **[PENDING] MAP A TOTAL OF 30 SONGS FOR RELEASE.**
 
