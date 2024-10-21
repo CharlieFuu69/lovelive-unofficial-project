@@ -45,7 +45,7 @@
 - [x] **[COMPLETADO] PANEL DE FORMACIÓN DE LIVE SHOW.**
 
 - [ ] **[EN CURSO: `28/29 (96.55%)`] APARTADO DE JUEGO: LIVE SHOWS.**
-> - [ ] Lógica de puntuación en Live Shows.
+> - [x] Lógica de puntuación en Live Shows.
 >   > - [x] Obtener sumatoria de estrategia activa como puntuación base por carta.
 >   > - [x] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
 >   > - [x] Crear subclase de RhythmBeats (`RhythmSessionNormal()`) para el modo de juego "Un solo jugador".
@@ -63,7 +63,7 @@
 >   >   > - [x] Crear método tipo Callback `periodic_loop()`, cuyo llamado debe ser constante en el bucle principal del sistema rítmico.
 >   >   > - [x] Sobreescribir método `periodic_loop()` con la lógica de supervisión de Fever Time
 >
-> - [x] Secuencia de los Live Shows.
+> - [ ] Secuencia de los Live Shows.
 >   > - [x] Mostrar portada, título, Full Combo y BPM de la canción a jugar.
 >   > - [x] Instanciar la partida como objeto del núcleo de Ren'Py RhythmBeats! (`RhythmSessionNormal()`).
 >   > - [x] Mostrar Skills activas.
