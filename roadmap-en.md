@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-10-20 23:31 (GMT -3)`    | 182                 | 7                  | 66.66% (12/18 tasks)   |
+| `2024-10-20 23:31 (GMT -3)`    | 186                 | 1                  | 70.58% (12/17 tasks)   |
 
 ---
 
@@ -83,8 +83,6 @@
 >   >   > - [x] Show PP obtained in the Live Show.
 >   >   > - [x] Show the Rank of the Live Show (CBAS).
 >   >   > - [ ] Choose and display Live Show reward items.
-
-- [ ] **[PENDING] MISSION PANEL WITH REWARDS.**
 
 - [ ] **[PENDING] PLAYER PROFILE PANEL.**
 
