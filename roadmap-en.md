@@ -45,7 +45,7 @@
 - [x] **[COMPLETE] LIVE SHOW FORMATION PANEL.**
 
 - [ ] **[IN PROGRESS: `28/29 (96.55%)`] GAME SECTION: LIVE SHOWS.**
-> - [ ] Scoring logic in Live Shows.
+> - [x] Scoring logic in Live Shows.
 >   > - [x] Get active strategy summation as base score per card.
 >   > - [x] Get list of active cards to be cycled through for each note played.
 >   > - [x] Create subclass of RhythmBeats (`RhythmSessionNormal()`) for "Single Player" game mode.
@@ -63,7 +63,7 @@
 >   >   > - [x] Create `periodic_loop()` type Callback method, which must be called constantly in the main loop of the rhythm system.
 >   >   > - [x] Override `periodic_loop()` method with Fever Time monitoring logic
 >
-> - [x] Sequence of the Live Shows.
+> - [ ] Sequence of the Live Shows.
 >   > - [x] Show cover art, title, Full Combo and BPM of the song to play.
 >   > - [x] Instantiate the game as a Ren'Py RhythmBeats core object! (`RhythmPlayground()`).
 >   > - [x] Show active Skills.
