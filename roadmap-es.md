@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-10-20 23:31 (GMT -3)`    | 182                 | 7                  | 66.66% (12/18 tareas)  |
+| `2024-10-20 23:31 (GMT -3)`    | 186                 | 1                  | 70.58% (12/17 tareas)  |
 
 ---
 
@@ -83,8 +83,6 @@
 >   >   > - [x] Mostrar LP obtenido en el Live Show.
 >   >   > - [x] Mostrar el Rank del Live Show (CBAS).
 >   >   > - [ ] Escoger y mostrar los ítems de recompensa del Live Show.
-
-- [ ] **[PENDIENTE] PANEL DE MISIONES CON RECOMPENSAS.**
 
 - [ ] **[PENDIENTE] PANEL DE PERFIL DEL JUGADOR.**
 
