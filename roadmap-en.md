@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-10-20 23:31 (GMT -3)`    | 186                 | 1                  | 66.67% (12/18 tasks)   |
+| `2024-10-20 23:31 (GMT -3)`    | 186                 | 4                  | 66.67% (12/18 tasks)   |
 
 ---
 
