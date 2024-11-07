@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-11-02 12:31 (GMT -3)`    | 186                 | 4                  | 66.67% (12/18 tareas)  |
+| `2024-11-07 00:12 (GMT -3)`    | 186                 | 4                  | 66.67% (12/18 tareas)  |
 
 ---
 
@@ -44,7 +44,7 @@
 
 - [x] **[COMPLETADO] PANEL DE FORMACIÓN DE LIVE SHOW.**
 
-- [ ] **[EN CURSO: `29/32 (90.63%)`] APARTADO DE JUEGO: LIVE SHOWS.**
+- [ ] **[EN CURSO: `31/32 (96.88%)`] APARTADO DE JUEGO: LIVE SHOWS.**
 > - [x] Lógica de puntuación en Live Shows.
 >   > - [x] Obtener sumatoria de estrategia activa como puntuación base por carta.
 >   > - [x] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
@@ -82,8 +82,8 @@
 >   >   > - [x] Mostrar bandera de nuevo récord.
 >   >   > - [x] Mostrar LP obtenido en el Live Show.
 >   >   > - [x] Mostrar el Rank del Live Show (CBAS).
->   >   > - [ ] Agregar conteo de notas FAST/SLOW.
->   >   > - [ ] Mostrar sprite de la School Idol correspondiente a la carta MVP del Live Show.
+>   >   > - [x] Agregar conteo de notas FAST/SLOW.
+>   >   > - [x] Mostrar sprite de la School Idol correspondiente a la carta MVP del Live Show.
 >   >   > - [x] Mostrar animación de Subida de nivel de jugador.
 >   >   > - [ ] Escoger y mostrar los ítems de recompensa del Live Show.
 
