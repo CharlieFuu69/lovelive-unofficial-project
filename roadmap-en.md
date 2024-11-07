@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-11-02 12:31 (GMT -3)`    | 186                 | 4                  | 66.67% (12/18 tasks)   |
+| `2024-11-07 00:12 (GMT -3)`    | 186                 | 4                  | 66.67% (12/18 tasks)   |
 
 ---
 
@@ -44,7 +44,7 @@
 
 - [x] **[COMPLETE] LIVE SHOW FORMATION PANEL.**
 
-- [ ] **[IN PROGRESS: `29/32 (90.63%)`] GAME SECTION: LIVE SHOWS.**
+- [ ] **[IN PROGRESS: `31/32 (96.88%)`] GAME SECTION: LIVE SHOWS.**
 > - [x] Scoring logic in Live Shows.
 >   > - [x] Get active strategy summation as base score per card.
 >   > - [x] Get list of active cards to be cycled through for each note played.
@@ -82,8 +82,8 @@
 >   >   > - [x] Show new record flag.
 >   >   > - [x] Show PP obtained in the Live Show.
 >   >   > - [x] Show the Rank of the Live Show (CBAS).
->   >   > - [ ] Add FAST/SLOW note counting.
->   >   > - [ ] Show School Idol sprite corresponding to the MVP card of the Live Show.
+>   >   > - [x] Add FAST/SLOW note counting.
+>   >   > - [x] Show School Idol sprite corresponding to the MVP card of the Live Show.
 >   >   > - [x] Show Player Level Up animation.
 >   >   > - [ ] Choose and display Live Show reward items.
 
