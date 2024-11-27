@@ -1,6 +1,0 @@
-- name: Github Telegram Notifier
-  uses: EverythingSuckz/github-telegram-notify@v1.1.2
-            
-  with:
-    bot_token: '${{ secrets.TELEGRAM_NOTIFIER_TOKEN }}'
-    chat_id: '${{ secrets.CHAT_ID }}'
