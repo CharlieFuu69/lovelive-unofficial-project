@@ -5,6 +5,5 @@ with:
   chat_id: '${{ secrets.CHAT_ID }}'
 
 on:
-  commit:
-    branches: [main]
+  always()
           
