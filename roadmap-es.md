@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-11-07 00:12 (GMT -3)`    | 186                 | 4                  | 66.67% (12/18 tareas)  |
+| `2024-11-30 20:15 (GMT -3)`    | 189                 | 0                  | 72.22% (13/18 tareas)  |
 
 ---
 
@@ -44,50 +44,11 @@
 
 - [x] **[COMPLETADO] PANEL DE FORMACIÓN DE LIVE SHOW.**
 
-- [ ] **[EN CURSO: `31/32 (96.88%)`] APARTADO DE JUEGO: LIVE SHOWS.**
-> - [x] Lógica de puntuación en Live Shows.
->   > - [x] Obtener sumatoria de estrategia activa como puntuación base por carta.
->   > - [x] Obtener lista de cartas activas para ser recorridas por cada nota tocada.
->   > - [x] Crear subclase de RhythmBeats (`RhythmSessionNormal()`) para el modo de juego "Un solo jugador".
->   > - [x] La subclase debe tener un contador de notas para estado de reposo y estado activo de Skills.
->   > - [x] El método `periodic_tap()` debe ejecutar una rotación de cartas activas por cada nota tocada.
->   > - [x] El método `periodic_tap()` debe reiniciar automáticamente el índice de rotación para evitar errores de tipo `IndexError`.
->   > - [x] Establecer puntuación base de un Fever Time.
->   > - [x] Definir los tiempos de Fever Time en el Dataset de canciones.
->   > - [x] Inspector y disparador de Skills.
->   >   > - [x] Disparar Skills de tipo `combo->int` (Sumar `m` LP para `n` cantidad de notas).
->   >   > - [x] Disparar Skills de tipo `combo->pct` (Incrementar en `m`% el LP para `n` cantidad de notas).
->   >   > - [x] Disparar Skills de tipo `fever` (Sumar `m` LP durante el Fever Time).
->   >
->   > - [x] Reacondicionamiento de RhythmBeats.
->   >   > - [x] Crear método tipo Callback `periodic_loop()`, cuyo llamado debe ser constante en el bucle principal del sistema rítmico.
->   >   > - [x] Sobreescribir método `periodic_loop()` con la lógica de supervisión de Fever Time
->
-> - [ ] Secuencia de los Live Shows.
->   > - [x] Mostrar portada, título, Full Combo y BPM de la canción a jugar.
->   > - [x] Instanciar la partida como objeto del núcleo de Ren'Py RhythmBeats! (`RhythmSessionNormal()`).
->   > - [x] Mostrar Skills activas.
->   > - [x] Mostrar fases de Fever Time (Fever Challenge, Fever Time).
->   > - [x] Mostrar juicio del Live Show al finalizar la partida (Live Cleared!, Full Combo!, All Perfect!).
->   > - [x] Mostrar XP obtenida por performance del Live Show.
->   >   > - [x] XP por juicio del Live Show.
->   >   > - [x] XP por tiempo de reacción promedio.
->   >   > - [x] XP por nuevo récord alcanzado.
->   >
->   > - [ ] Mostrar resultados (estadísticas) del Live Show.
->   >   > - [x] Cantidad de notas Perfect!.
->   >   > - [x] Cantidad de notas Great!.
->   >   > - [x] Cantidad de notas Miss.
->   >   > - [x] Mostrar bandera de Full Combo/All Perfect.
->   >   > - [x] Mostrar bandera de nuevo récord.
->   >   > - [x] Mostrar LP obtenido en el Live Show.
->   >   > - [x] Mostrar el Rank del Live Show (CBAS).
->   >   > - [x] Agregar conteo de notas FAST/SLOW.
->   >   > - [x] Mostrar sprite de la School Idol correspondiente a la carta MVP del Live Show.
->   >   > - [x] Mostrar animación de Subida de nivel de jugador.
->   >   > - [ ] Escoger y mostrar los ítems de recompensa del Live Show.
+- [x] **[COMPLETADO] APARTADO DE JUEGO: LIVE SHOWS.**
 
-- [ ] **[PENDIENTE] PANEL DE PERFIL DEL JUGADOR.**
+- [ ] **[EN CURSO: `--/-- (0.00%)`] PANEL DE PERFIL DEL JUGADOR.**
+>
+> _[Esperando lista de tickets...]_
 
 - [ ] **[PENDIENTE] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Fan ID, Database).**
 
