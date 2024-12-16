@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2024-12-01 23:25 (GMT -3)`    | 193                 | 3                  | 72.22% (13/18 tareas)  |
+| `2024-12-15 22:03 (GMT -3)`    | 194                 | 2                  | 72.22% (13/18 tareas)  |
 
 ---
 
@@ -46,16 +46,16 @@
 
 - [x] **[COMPLETADO] APARTADO DE JUEGO: LIVE SHOWS.**
 
-- [ ] **[EN CURSO: `4/7 (57.14%)`] PANEL DE PERFIL DEL JUGADOR.**
->   - [ ] **Sección de Perfil del Productor.**
+- [ ] **[EN CURSO: `5/7 (71.43%)`] PANEL DE PERFIL DEL JUGADOR.**
 >   - [x] **Menú contextual de inicio**
 >   >   - [x] Botón para abrir el "Perfil de Productor" (Jugador).
 >   >   - [x] Botón para abrir la Configuración del juego.
 >   >   - [x] Botón para abrir el registro del juego.
 >   >   - [x] Botón para abrir la ventana "Acerca de LoveLive! UP"
 >
->   - [ ] **Rediseñado del panel de Configuración.**
+>   - [x] **Rediseñado del panel de Configuración.**
 >   - [ ] **Ventana de registro del sistema.**
+>   - [ ] **Sección de Perfil del Productor.**
 >
 > _[Esperando más tickets...]_
 
