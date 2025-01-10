@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2024-12-17 15:17 (GMT -3)`    | 195                 | 1                  | 72.22% (13/18 tasks)   |
+| `2025-01-10 04:16 (GMT -3)`    | 196                 | 0                  | 77.78% (14/18 tasks)   |
 
 ---
 
@@ -46,20 +46,9 @@
 
 - [x] **[COMPLETE] GAME SECTION: LIVE SHOWS.**
 
-- [ ] **[IN PROGRESS: `6/7 (85.71%)`] PLAYER PROFILE PANEL.**
->   - [x] **Start Context Menu**
->   >   - [x] Button to open "Producer Profile" (Player).
->   >   - [x] Button to open Game Settings.
->   >   - [x] Button to open Game Log.
->   >   - [x] Button to open "About LoveLive! UP" window.
->
->   - [x] **Settings Panel redesign.**
->   - [x] **System Log Window.**
->   - [ ] **Producer Profile Section.**
->
-> _[Waiting for more tickets...]_
+- [x] **[COMPLETE] PLAYER PROFILE PANEL.**
 
-- [ ] **[PENDING] PLAYER ACCOUNT SYSTEM (LoveLive Fan ID, Database).**
+- [ ] **[IN PROGRESS (`0/0 - 0.00%`)] PLAYER ACCOUNT SYSTEM (LoveLive Fan ID, Database).**
 
 - [ ] **[PENDING] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
 
