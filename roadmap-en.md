@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-01-12 03:26 (GMT -3)`    | 199                 | 14                 | 77.78% (14/18 tasks)   |
+| `2025-01-18 04:33 (GMT -3)`    | 202                 | 11                 | 77.78% (14/18 tasks)   |
 
 ---
 
@@ -48,11 +48,11 @@
 
 - [x] **14. [COMPLETE] PLAYER PROFILE PANEL.**
 
-- [ ] **15. [IN PROGRESS... (`3/17 - 17.65%`)] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
+- [ ] **15. [IN PROGRESS... (`6/17 - 35.29%`)] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
 >   - [ ] Remote side (Server).
 >   >   - [x] Prepare database (`playtesting`, `player_accounts`)
 >   >   - [x] Endpoint programming for player registration (`sign_up`).
->   >   - [ ] Endpoint programming for login (`login`).
+>   >   - [x] Endpoint programming for login (`login`).
 >   >   - [ ] Endpoint programming for progress update (`push`).
 >   >   - [ ] Endpoint programming for changing Nick/Password (`change_login`).
 >   >   - [ ] Endpoint programming for account deletion (`delete`).
@@ -64,8 +64,8 @@
 >
 >   - [ ] Player account management.
 >   >   - [x] Generate a user ID for each account.
->   >   - [ ] Create logic to log in to the account.
->   >   - [ ] Create logic to download progress from the server.
+>   >   - [x] Create logic to log in to the account.
+>   >   - [x] Create logic to download progress from the server.
 >   >   - [ ] Create logic to update server progress.
 >   >   - [ ] Create logic to change Nick/Password.
 >   >   - [ ] Create logic to delete the account (Involves total deletion of progress).
