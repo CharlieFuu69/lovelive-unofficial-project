@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2025-01-18 04:33 (GMT -3)`    | 202                 | 11                 | 77.78% (14/18 tareas)  |
+| `2025-01-27 14:52 (GMT -3)`    | 203                 | 10                 | 77.78% (14/18 tareas)  |
 
 ---
 
@@ -48,12 +48,12 @@
 
 - [x] **14. [COMPLETADO] PANEL DE PERFIL DEL JUGADOR.**
 
-- [ ] **15. [EN CURSO... (`6/17 - 35.29%`)] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Producer ID).**
+- [ ] **15. [EN CURSO... (`7/17 - 41.18%`)] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Producer ID).**
 >   - [ ] Lado remoto (Servidor).
 >   >   - [x] Preparar base de datos (`playtesting`, `player_accounts`)
 >   >   - [x] Programación de Endpoint para registro de jugadores (`sign_up`).
 >   >   - [x] Programación de Endpoint para inicio de sesión (`login`).
->   >   - [ ] Programación de Endpoint para actualización de progreso (`push`).
+>   >   - [ ] Programación de Endpoint para actualización de progreso (`update`).
 >   >   - [ ] Programación de Endpoint para cambiar Nickname/Contraseña (`change_login`).
 >   >   - [ ] Programación de Endpoint para eliminación de cuenta (`delete`).
 >   >   - [ ] Programación de Endpoint para autenticar jugadores aprobados para las "Pruebas Técnicas" (`playtest_login`).
@@ -66,7 +66,7 @@
 >   >   - [x] Generar un User ID para cada cuenta.
 >   >   - [x] Crear lógica para iniciar sesión en la cuenta.
 >   >   - [x] Crear lógica para descargar el progreso desde el servidor.
->   >   - [ ] Crear lógica para actualizar progreso del servidor.
+>   >   - [x] Crear lógica para actualizar progreso del servidor.
 >   >   - [ ] Crear lógica para cambiar Nickname/Contraseña.
 >   >   - [ ] Crear lógica para eliminar la cuenta (Involucra eliminación total del progreso).
 >   >   - [ ] Agregar botón de gestión de cuenta en el Menú Contextual de la pantalla Home.
