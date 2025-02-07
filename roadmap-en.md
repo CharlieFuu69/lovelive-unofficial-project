@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-01-27 14:52 (GMT -3)`    | 203                 | 10                 | 77.78% (14/18 tasks)   |
+| `2025-02-07 04:50 (GMT -3)`    | 210                 | 3                  | 77.78% (14/18 tasks)   |
 
 ---
 
@@ -48,29 +48,29 @@
 
 - [x] **14. [COMPLETE] PLAYER PROFILE PANEL.**
 
-- [ ] **15. [IN PROGRESS... (`7/17 - 41.18%`)] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
+- [ ] **15. [IN PROGRESS... (`14/17 - 82.35%`)] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
 >   - [ ] Remote side (Server).
 >   >   - [x] Prepare database (`playtesting`, `player_accounts`)
 >   >   - [x] Endpoint programming for player registration (`sign_up`).
 >   >   - [x] Endpoint programming for login (`login`).
->   >   - [ ] Endpoint programming for progress update (`push`).
->   >   - [ ] Endpoint programming for changing Nick/Password (`change_login`).
->   >   - [ ] Endpoint programming for account deletion (`delete`).
+>   >   - [x] Endpoint programming for progress update (`update`).
+>   >   - [x] Endpoint programming for changing Nick/Password (`chg_login`).
+>   >   - [x] Endpoint programming for account deletion (`delete`).
 >   >   - [ ] Endpoint programming to authenticate players approved for "Technical Tests" (`playtest_login`).
 >
 >   - [ ] Authentication of Playtesters (Game).
 >   >   - [ ] Add window to request Access Token from Playtesters.
 >   >   - [ ] Create logic for remote communication to the authentication server.
 >
->   - [ ] Player account management.
+>   - [x] Player account management.
 >   >   - [x] Generate a user ID for each account.
 >   >   - [x] Create logic to log in to the account.
 >   >   - [x] Create logic to download progress from the server.
 >   >   - [x] Create logic to update server progress.
->   >   - [ ] Create logic to change Nick/Password.
->   >   - [ ] Create logic to delete the account (Involves total deletion of progress).
->   >   - [ ] Add account management button to the Home Screen Context Menu.
->   >   - [ ] Prepare UI to interact with the account.
+>   >   - [x] Create logic to change Nick/Password.
+>   >   - [x] Create logic to delete the account (Involves total deletion of progress).
+>   >   - [x] Add account management button to the Home Screen Context Menu.
+>   >   - [x] Prepare UI to interact with the account.
 
 - [ ] **16. [PENDING] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
 
