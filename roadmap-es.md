@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2025-01-27 14:52 (GMT -3)`    | 203                 | 10                 | 77.78% (14/18 tareas)  |
+| `2025-02-07 04:50 (GMT -3)`    | 210                 | 3                  | 77.78% (14/18 tareas)  |
 
 ---
 
@@ -48,29 +48,29 @@
 
 - [x] **14. [COMPLETADO] PANEL DE PERFIL DEL JUGADOR.**
 
-- [ ] **15. [EN CURSO... (`7/17 - 41.18%`)] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Producer ID).**
+- [ ] **15. [EN CURSO... (`14/17 - 82.35%`)] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Producer ID).**
 >   - [ ] Lado remoto (Servidor).
 >   >   - [x] Preparar base de datos (`playtesting`, `player_accounts`)
 >   >   - [x] Programación de Endpoint para registro de jugadores (`sign_up`).
 >   >   - [x] Programación de Endpoint para inicio de sesión (`login`).
->   >   - [ ] Programación de Endpoint para actualización de progreso (`update`).
->   >   - [ ] Programación de Endpoint para cambiar Nickname/Contraseña (`change_login`).
->   >   - [ ] Programación de Endpoint para eliminación de cuenta (`delete`).
+>   >   - [x] Programación de Endpoint para actualización de progreso (`update`).
+>   >   - [x] Programación de Endpoint para cambiar Nickname/Contraseña (`chg_login`).
+>   >   - [x] Programación de Endpoint para eliminación de cuenta (`delete`).
 >   >   - [ ] Programación de Endpoint para autenticar jugadores aprobados para las "Pruebas Técnicas" (`playtest_login`).
 >
 >   - [ ] Autenticación de Playtesters (Juego).
 >   >   - [ ] Agregar ventana para solicitar el Token de Acceso a los Playtesters.
 >   >   - [ ] Crear lógica para comunicación remota hacia el servidor de autenticación.
 >
->   - [ ] Administración de cuenta de jugador.
+>   - [x] Administración de cuenta de jugador.
 >   >   - [x] Generar un User ID para cada cuenta.
 >   >   - [x] Crear lógica para iniciar sesión en la cuenta.
 >   >   - [x] Crear lógica para descargar el progreso desde el servidor.
 >   >   - [x] Crear lógica para actualizar progreso del servidor.
->   >   - [ ] Crear lógica para cambiar Nickname/Contraseña.
->   >   - [ ] Crear lógica para eliminar la cuenta (Involucra eliminación total del progreso).
->   >   - [ ] Agregar botón de gestión de cuenta en el Menú Contextual de la pantalla Home.
->   >   - [ ] Preparar UI para interactuar con la cuenta.
+>   >   - [x] Crear lógica para cambiar Nickname/Contraseña.
+>   >   - [x] Crear lógica para eliminar la cuenta (Involucra eliminación total del progreso).
+>   >   - [x] Agregar botón de gestión de cuenta en el Menú Contextual de la pantalla Home.
+>   >   - [x] Preparar UI para interactuar con la cuenta.
 
 - [ ] **16. [PENDIENTE] EVENTOS ONLINE ASÍNCRONOS (MODOS DE JUEGO Y BACKEND DEL SERVIDOR).**
 
