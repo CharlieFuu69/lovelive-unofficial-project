@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-02-07 04:50 (GMT -3)`    | 210                 | 3                  | 77.78% (14/18 tasks)   |
+| `2025-02-09 04:50 (GMT -3)`    | 213                 | 0                  | 83.33% (15/18 tasks)   |
 
 ---
 
@@ -48,31 +48,11 @@
 
 - [x] **14. [COMPLETE] PLAYER PROFILE PANEL.**
 
-- [ ] **15. [IN PROGRESS... (`14/17 - 82.35%`)] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
->   - [ ] Remote side (Server).
->   >   - [x] Prepare database (`playtesting`, `player_accounts`)
->   >   - [x] Endpoint programming for player registration (`sign_up`).
->   >   - [x] Endpoint programming for login (`login`).
->   >   - [x] Endpoint programming for progress update (`update`).
->   >   - [x] Endpoint programming for changing Nick/Password (`chg_login`).
->   >   - [x] Endpoint programming for account deletion (`delete`).
->   >   - [ ] Endpoint programming to authenticate players approved for "Technical Tests" (`playtest_login`).
->
->   - [ ] Authentication of Playtesters (Game).
->   >   - [ ] Add window to request Access Token from Playtesters.
->   >   - [ ] Create logic for remote communication to the authentication server.
->
->   - [x] Player account management.
->   >   - [x] Generate a user ID for each account.
->   >   - [x] Create logic to log in to the account.
->   >   - [x] Create logic to download progress from the server.
->   >   - [x] Create logic to update server progress.
->   >   - [x] Create logic to change Nick/Password.
->   >   - [x] Create logic to delete the account (Involves total deletion of progress).
->   >   - [x] Add account management button to the Home Screen Context Menu.
->   >   - [x] Prepare UI to interact with the account.
+- [ ] **15. [COMPLETE] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
 
-- [ ] **16. [PENDING] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
+- [ ] **16. [IN PROGRESS... (`0/0 - 0.00%`)] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
+>
+> _(Waiting for tickets...)_
 
 - [ ] **17. [PENDING] OUTFIT SHOP.**
 
