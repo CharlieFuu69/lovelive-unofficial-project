@@ -1,5 +1,13 @@
 {
     "version" : "v0.01.144a",
+    "status" : "running",
+
+    "event" : {
+        "name" : "LoveLive! Grand Prix",
+        "round" : 1,
+        "deadline" : "2025-12-30 00:00"
+    },
+    
     "packages" : {
         "Coregame.bruh": "3ae7400df0cabfc53db5dcff18440c41",
         "Song_0001.bruh": "f4ac4064a5297e00dbe5c87a249ce59b",
