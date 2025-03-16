@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-02-09 04:50 (GMT -3)`    | 213                 | 0                  | 83.33% (15/18 tasks)   |
+| `2025-03-16 05:17 (GMT -3)`    | 225                 | 9                  | 83.33% (15/18 tasks)   |
 
 ---
 
@@ -50,9 +50,39 @@
 
 - [ ] **15. [COMPLETE] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
 
-- [ ] **16. [IN PROGRESS... (`0/0 - 0.00%`)] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
+- [ ] **16. [IN PROGRESS... (`12/22 - 54.55%`)] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
 >
-> _(Waiting for tickets...)_
+>    - [ ] (Competitive Event) LoveLive! Grand Prix.
+>
+>    >    - [x] Create a subclass of `RhythmBeatsCore()` for the "LoveLive! Grand Prix" mechanics.
+>    >
+>    >    - [ ] `GrandPrixClient()` client object.
+>    >    >    - [x] Get the event's deadline.
+>    >    >    - [x] Format the event's duration countdown.
+>    >    >    - [x] Trigger actions based on the event's countdown phases.
+>    >    >    - [x] (`enter_room`) Check for pending updates upon entering the room.
+>    >    >    - [x] (`enter_room`) Get the event's player ranking.
+>    >    >    - [x] (`update_own`) Enter a player into the event/Update performance.
+>    >    >    - [ ] (`push_match`) Push/Update Match (PvP) data when the Live Show ends.
+>    >
+>    >    - [ ] Event sequences.
+>    >    >    - [x] Lobby sequence (`seq_grandprix_lobby`).
+>    >    >    - [x] Performance Preparation sequence (`seq_grandprix_select_song`).
+>    >    >    - [x] Performance Results sequence (`seq_llgp_perform_results`).
+>    >    >    - [ ] PvP Match sequence (`seq_llgp_match_start`).
+>    >    >    - [ ] Match Results sequence (`seq_llgp_match_results`). > > > - [ ] Sequence for end of event/Awards (`seq_llgp_event_results`).
+>    >
+>    >    - [ ] Event interface.
+>    >    >    - [x] Lobby window (`llgp_event_lobby`).
+>    >    >    - [x] Performance management window (`llgp_perform_menu`).
+>    >    >    - [x] Performance results window (`llgp_perform_results`).
+>    >    >    - [ ] World ranking window (`llgp_event_ranking`).
+>    >    >    - [ ] Producer list/Find match window (`llgp_match_list`).
+>    >    >    - [ ] Match start window (`llgp_match_start`).
+>    >    >    - [ ] Match results window (`llgp_match_results`).
+>    >    >    - [ ] Event Results/Awards Window (`llgp_event_results`).
+>
+>    _(Waiting for more entries...)_
 
 - [ ] **17. [PENDING] OUTFIT SHOP.**
 
