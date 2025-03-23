@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2025-03-16 05:17 (GMT -3)`    | 225                 | 9                  | 83.33% (15/18 tareas)  |
+| `2025-03-16 21:22 (GMT -3)`    | 226                 | 8                  | 83.33% (15/18 tareas)  |
 
 ---
 
@@ -50,7 +50,7 @@
 
 - [x] **15. [COMPLETADO] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Producer ID).**
 
-- [ ] **16. [EN CURSO... (`12/22 - 54.55%`)] EVENTOS ONLINE ASÍNCRONOS (MODOS DE JUEGO Y BACKEND DEL SERVIDOR).**
+- [ ] **16. [EN CURSO... (`13/22 - 59.10%`)] EVENTOS ONLINE ASÍNCRONOS (MODOS DE JUEGO Y BACKEND DEL SERVIDOR).**
 >
 >    - [ ] (Evento Competitivo) LoveLive! Grand Prix.
 >    >    - [x] Crear subclase de `RhythmBeatsCore()` para la mecánica del "LoveLive! Grand Prix".
@@ -76,7 +76,7 @@
 >    >    >    - [x] Ventana del Lobby (`llgp_event_lobby`).
 >    >    >    - [x] Ventana de Gestión de Performance (`llgp_perform_menu`).
 >    >    >    - [x] Ventana de resultados de Performance (`llgp_perform_results`).
->    >    >    - [ ] Ventana de Ranking Mundial (`llgp_event_ranking`).
+>    >    >    - [x] Ventana de Ranking Mundial (`llgp_event_ranking`).
 >    >    >    - [ ] Ventana de lista de productores/Buscar Partida (`llgp_match_list`).
 >    >    >    - [ ] Ventana de Inicio del Match (`llgp_match_start`).
 >    >    >    - [ ] Ventana de Resultados del Match (`llgp_match_results`).
