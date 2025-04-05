@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2025-03-16 21:22 (GMT -3)`    | 226                 | 8                  | 83.33% (15/18 tareas)  |
+| `2025-04-05 02:23 (GMT -3)`    | 229                 | 5                  | 83.33% (15/18 tareas)  |
 
 ---
 
@@ -50,7 +50,7 @@
 
 - [x] **15. [COMPLETADO] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Producer ID).**
 
-- [ ] **16. [EN CURSO... (`13/22 - 59.10%`)] EVENTOS ONLINE ASÍNCRONOS (MODOS DE JUEGO Y BACKEND DEL SERVIDOR).**
+- [ ] **16. [EN CURSO... (`16/22 - 72.73%`)] EVENTOS ONLINE ASÍNCRONOS (MODOS DE JUEGO Y BACKEND DEL SERVIDOR).**
 >
 >    - [ ] (Evento Competitivo) LoveLive! Grand Prix.
 >    >    - [x] Crear subclase de `RhythmBeatsCore()` para la mecánica del "LoveLive! Grand Prix".
@@ -68,7 +68,7 @@
 >    >    >    - [x] Secuencia del Lobby (`seq_grandprix_lobby`).
 >    >    >    - [x] Secuencia para Preparación de Performance (`seq_grandprix_select_song`).
 >    >    >    - [x] Secuencia para resultados de Performance (`seq_llgp_perform_results`).
->    >    >    - [ ] Secuencia para el Match PvP (`seq_llgp_match_start`).
+>    >    >    - [x] Secuencia para el Match PvP (`seq_llgp_match_start`).
 >    >    >    - [ ] Secuencia para resultados del Match (`seq_llgp_match_results`).
 >    >    >    - [ ] Secuencia para fin del evento/Premiación (`seq_llgp_event_results`).
 >    >
@@ -77,8 +77,8 @@
 >    >    >    - [x] Ventana de Gestión de Performance (`llgp_perform_menu`).
 >    >    >    - [x] Ventana de resultados de Performance (`llgp_perform_results`).
 >    >    >    - [x] Ventana de Ranking Mundial (`llgp_event_ranking`).
->    >    >    - [ ] Ventana de lista de productores/Buscar Partida (`llgp_match_list`).
->    >    >    - [ ] Ventana de Inicio del Match (`llgp_match_start`).
+>    >    >    - [x] Ventana de lista de productores/Buscar Partida (`llgp_match_list`).
+>    >    >    - [x] Ventana de Inicio del Match (`llgp_match_start`).
 >    >    >    - [ ] Ventana de Resultados del Match (`llgp_match_results`).
 >    >    >    - [ ] Ventana de resultados del evento/Premiación (`llgp_event_results`).
 >
