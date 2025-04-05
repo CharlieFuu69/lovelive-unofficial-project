@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-03-16 21:22 (GMT -3)`    | 226                 | 8                  | 83.33% (15/18 tasks)   |
+| `2025-04-05 02:23 (GMT -3)`    | 229                 | 5                  | 83.33% (15/18 tasks)   |
 
 ---
 
@@ -50,7 +50,7 @@
 
 - [ ] **15. [COMPLETE] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
 
-- [ ] **16. [IN PROGRESS... (`13/22 - 59.10%`)] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
+- [ ] **16. [IN PROGRESS... (`16/22 - 72.73%`)] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
 >
 >    - [ ] (Competitive Event) LoveLive! Grand Prix.
 >
@@ -69,7 +69,7 @@
 >    >    >    - [x] Lobby sequence (`seq_grandprix_lobby`).
 >    >    >    - [x] Performance Preparation sequence (`seq_grandprix_select_song`).
 >    >    >    - [x] Performance Results sequence (`seq_llgp_perform_results`).
->    >    >    - [ ] PvP Match sequence (`seq_llgp_match_start`).
+>    >    >    - [x] PvP Match sequence (`seq_llgp_match_start`).
 >    >    >    - [ ] Match Results sequence (`seq_llgp_match_results`).
 >    >    >    - [ ] Sequence for end of event/Awards (`seq_llgp_event_results`).
 >    >
@@ -78,8 +78,8 @@
 >    >    >    - [x] Performance management window (`llgp_perform_menu`).
 >    >    >    - [x] Performance results window (`llgp_perform_results`).
 >    >    >    - [x] World ranking window (`llgp_event_ranking`).
->    >    >    - [ ] Producer list/Find match window (`llgp_match_list`).
->    >    >    - [ ] Match start window (`llgp_match_start`).
+>    >    >    - [x] Producer list/Find match window (`llgp_match_list`).
+>    >    >    - [x] Match start window (`llgp_match_start`).
 >    >    >    - [ ] Match results window (`llgp_match_results`).
 >    >    >    - [ ] Event Results/Awards Window (`llgp_event_results`).
 >
