@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-04-05 02:23 (GMT -3)`    | 229                 | 5                  | 83.33% (15/18 tasks)   |
+| `2025-04-13 02:21 (GMT -4)`    | 231                 | 3                  | 83.33% (15/18 tasks)   |
 
 ---
 
@@ -50,38 +50,40 @@
 
 - [ ] **15. [COMPLETE] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
 
-- [ ] **16. [IN PROGRESS... (`16/22 - 72.73%`)] ASYNCHRONOUS ONLINE EVENTS (GAME MODES AND SERVER BACKEND).**
->
->    - [ ] (Competitive Event) LoveLive! Grand Prix.
->
+- [ ] **16. [IN PROGRESS... (`19/22 - 86.36%`)] ASYNCHRONOUS ONLINE EVENTS (GAME MECHANICS AND SERVER BACKEND).**
+
+> [!NOTE]
+> *This task involves developing the Fangame's asynchronous event system, specifically the competitive mechanics for the **"LoveLive! Grand Prix"**, a type of event where the core of its competitiveness will be the players' reaction time.*
+
+>    - **DEDICATED SUBCLASS OF `RhythmBeatsCore()`.**
 >    >    - [x] Create a subclass of `RhythmBeatsCore()` for the "LoveLive! Grand Prix" mechanics.
->    >
->    >    - [ ] `GrandPrixClient()` client object.
->    >    >    - [x] Get the event's deadline.
->    >    >    - [x] Format the event's duration countdown.
->    >    >    - [x] Trigger actions based on the event's countdown phases.
->    >    >    - [x] (`enter_room`) Check for pending updates upon entering the room.
->    >    >    - [x] (`enter_room`) Get the event's player ranking.
->    >    >    - [x] (`update_own`) Enter a player into the event/Update performance.
->    >    >    - [ ] (`push_match`) Push/Update Match (PvP) data when the Live Show ends.
->    >
->    >    - [ ] Event sequences.
->    >    >    - [x] Lobby sequence (`seq_grandprix_lobby`).
->    >    >    - [x] Performance Preparation sequence (`seq_grandprix_select_song`).
->    >    >    - [x] Performance Results sequence (`seq_llgp_perform_results`).
->    >    >    - [x] PvP Match sequence (`seq_llgp_match_start`).
->    >    >    - [ ] Match Results sequence (`seq_llgp_match_results`).
->    >    >    - [ ] Sequence for end of event/Awards (`seq_llgp_event_results`).
->    >
->    >    - [ ] Event interface.
->    >    >    - [x] Lobby window (`llgp_event_lobby`).
->    >    >    - [x] Performance management window (`llgp_perform_menu`).
->    >    >    - [x] Performance results window (`llgp_perform_results`).
->    >    >    - [x] World ranking window (`llgp_event_ranking`).
->    >    >    - [x] Producer list/Find match window (`llgp_match_list`).
->    >    >    - [x] Match start window (`llgp_match_start`).
->    >    >    - [ ] Match results window (`llgp_match_results`).
->    >    >    - [ ] Event Results/Awards Window (`llgp_event_results`).
+>
+>    - **CLIENT OBJECT `GrandPrixClient()`.**
+>    >    - [x] Get the event's deadline.
+>    >    - [x] Format the event's duration countdown.
+>    >    - [x] Trigger actions based on the event's countdown phases.
+>    >    - [x] (`enter_room`) Check for pending updates upon entering the room.
+>    >    - [x] (`enter_room`) Get the event's player ranking.
+>    >    - [x] (`update_own`) Enter a player into the event/Update performance.
+>    >    - [ ] (`push_match`) Push/Update Match (PvP) data when the Live Show ends.
+>
+>    - **EVENT SEQUENCES.**
+>    >    - [x] Lobby sequence (`seq_grandprix_lobby`).
+>    >    - [x] Performance Preparation sequence (`seq_grandprix_select_song`).
+>    >    - [x] Performance Results sequence (`seq_llgp_perform_results`).
+>    >    - [x] PvP Match sequence (`seq_llgp_match_start`).
+>    >    - [x] Match Results sequence (`seq_llgp_match_results`).
+>    >    - [ ] Sequence for end of event/Awards (`seq_llgp_event_results`).
+>
+>    - **EVENT INTERFACE.**
+>    >    - [x] Lobby window (`llgp_event_lobby`).
+>    >    - [x] Performance management window (`llgp_perform_menu`).
+>    >    - [x] Performance results window (`llgp_perform_results`).
+>    >    - [x] World ranking window (`llgp_event_ranking`).
+>    >    - [x] Producer list/Find match window (`llgp_match_list`).
+>    >    - [x] Match start window (`llgp_match_start`).
+>    >    - [x] Match results window (`llgp_match_results`).
+>    >    - [ ] Event Results/Awards Window (`llgp_event_results`).
 >
 >    _(Waiting for more entries...)_
 
