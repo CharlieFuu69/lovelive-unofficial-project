@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2025-04-05 02:23 (GMT -3)`    | 229                 | 5                  | 83.33% (15/18 tareas)  |
+| `2025-04-13 02:21 (GMT -4)`    | 231                 | 3                  | 83.33% (15/18 tareas)  |
 
 ---
 
@@ -50,37 +50,40 @@
 
 - [x] **15. [COMPLETADO] SISTEMA DE CUENTAS DE JUGADOR (LoveLive Producer ID).**
 
-- [ ] **16. [EN CURSO... (`16/22 - 72.73%`)] EVENTOS ONLINE ASÍNCRONOS (MODOS DE JUEGO Y BACKEND DEL SERVIDOR).**
->
->    - [ ] (Evento Competitivo) LoveLive! Grand Prix.
+- [ ] **16. [EN CURSO... (`19/22 - 86.36%`)] EVENTOS ONLINE ASÍNCRONOS (MECÁNICAS DE JUEGO Y BACKEND DEL SERVIDOR).**
+
+> [!NOTE]
+> *En esta tarea se está desarrollando el sistema de eventos asíncronos del Fangame, en específico, la mecánica competitiva para el **"LoveLive! Grand Prix"**, un tipo de evento en que el núcleo de su competitividad será el tiempo de reacción de los jugadores.*
+
+>    - **SUBCLASE DEDICADA DE RhythmBeatsCore().**
 >    >    - [x] Crear subclase de `RhythmBeatsCore()` para la mecánica del "LoveLive! Grand Prix".
+>
+>    - **OBJETO DEL CLIENTE `GrandPrixClient()`.**
+>    >    - [x] Obtener Deadline (fecha límite) del evento.
+>    >    - [x] Formatear cuenta regresiva de duración del evento.
+>    >    - [x] Disparar acciones en fases de la cuenta regresiva del evento.
+>    >    - [x] (`enter_room`) Comprobar actualizaciones pendientes al entrar a la sala.
+>    >    - [x] (`enter_room`) Obtener el Ranking de jugadores del evento.
+>    >    - [x] (`update_own`) Ingresar jugador al evento/Actualizar performance.
+>    >    - [ ] (`push_match`) Empujar/Actualizar datos del Match (PvP) cuando termina el Live Show.
 >    >
->    >    - [ ] Objeto del cliente `GrandPrixClient()`.
->    >    >    - [x] Obtener Deadline (fecha límite) del evento.
->    >    >    - [x] Formatear cuenta regresiva de duración del evento.
->    >    >    - [x] Disparar acciones en fases de la cuenta regresiva del evento.
->    >    >    - [x] (`enter_room`) Comprobar actualizaciones pendientes al entrar a la sala.
->    >    >    - [x] (`enter_room`) Obtener el Ranking de jugadores del evento.
->    >    >    - [x] (`update_own`) Ingresar jugador al evento/Actualizar performance.
->    >    >    - [ ] (`push_match`) Empujar/Actualizar datos del Match (PvP) cuando termina el Live Show.
+>    - **SECUENCIAS DEL EVENTO.**
+>    >    - [x] Secuencia del Lobby (`seq_grandprix_lobby`).
+>    >    - [x] Secuencia para Preparación de Performance (`seq_grandprix_select_song`).
+>    >    - [x] Secuencia para resultados de Performance (`seq_llgp_perform_results`).
+>    >    - [x] Secuencia para el Match PvP (`seq_llgp_match_start`).
+>    >    - [x] Secuencia para resultados del Match (`seq_llgp_match_results`).
+>    >    - [ ] Secuencia para fin del evento/Premiación (`seq_llgp_event_results`).
 >    >
->    >    - [ ] Secuencias del evento.
->    >    >    - [x] Secuencia del Lobby (`seq_grandprix_lobby`).
->    >    >    - [x] Secuencia para Preparación de Performance (`seq_grandprix_select_song`).
->    >    >    - [x] Secuencia para resultados de Performance (`seq_llgp_perform_results`).
->    >    >    - [x] Secuencia para el Match PvP (`seq_llgp_match_start`).
->    >    >    - [ ] Secuencia para resultados del Match (`seq_llgp_match_results`).
->    >    >    - [ ] Secuencia para fin del evento/Premiación (`seq_llgp_event_results`).
->    >
->    >    - [ ] Interfaz del evento.
->    >    >    - [x] Ventana del Lobby (`llgp_event_lobby`).
->    >    >    - [x] Ventana de Gestión de Performance (`llgp_perform_menu`).
->    >    >    - [x] Ventana de resultados de Performance (`llgp_perform_results`).
->    >    >    - [x] Ventana de Ranking Mundial (`llgp_event_ranking`).
->    >    >    - [x] Ventana de lista de productores/Buscar Partida (`llgp_match_list`).
->    >    >    - [x] Ventana de Inicio del Match (`llgp_match_start`).
->    >    >    - [ ] Ventana de Resultados del Match (`llgp_match_results`).
->    >    >    - [ ] Ventana de resultados del evento/Premiación (`llgp_event_results`).
+>    - **INTERFAZ DEL EVENTO.**
+>    >    - [x] Ventana del Lobby (`llgp_event_lobby`).
+>    >    - [x] Ventana de Gestión de Performance (`llgp_perform_menu`).
+>    >    - [x] Ventana de resultados de Performance (`llgp_perform_results`).
+>    >    - [x] Ventana de Ranking Mundial (`llgp_event_ranking`).
+>    >    - [x] Ventana de lista de productores/Buscar Partida (`llgp_match_list`).
+>    >    - [x] Ventana de Inicio del Match (`llgp_match_start`).
+>    >    - [x] Ventana de Resultados del Match (`llgp_match_results`).
+>    >    - [ ] Ventana de resultados del evento/Premiación (`llgp_event_results`).
 >
 > _(Esperando más tickets...)_
 
