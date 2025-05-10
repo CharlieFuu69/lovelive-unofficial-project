@@ -48,11 +48,27 @@
 
 - [x] **14. [COMPLETE] PLAYER PROFILE PANEL.**
 
-- [ ] **15. [COMPLETE] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
+- [x] **15. [COMPLETE] PLAYER ACCOUNT SYSTEM (LoveLive Producer ID).**
 
-- [ ] **16. [COMPLETE] ASYNCHRONOUS ONLINE EVENTS (GAME MECHANICS AND SERVER BACKEND).**
+- [x] **16. [COMPLETE] ASYNCHRONOUS ONLINE EVENTS (GAME MECHANICS AND SERVER BACKEND).**
 
-- [ ] **17. [IN PROGRESS... (`0/0 - 0.00%`)] OUTFIT SHOP.**
+- [ ] **17. [IN PROGRESS... (`0/12 - 0.00%`)] OUTFIT SHOP.**
+
+* **STORE MANAGEMENT STRUCTURE:**
+> - [ ] Shop management class (`ShopManager()`).
+> - [ ] Shop index file (`ShopIndex.json`).
+> - [ ] Check item stock availability (`ShopManager.get_stock()`).
+> - [ ] Items such as outfits or wallpapers can only be purchased once.
+> - [ ] Buy an item if it has stock available (`ShopManager.buy_item()`).
+> - [ ] Automatically reset stock availability.
+> - [ ] Create a persistent container for counting purchased items (must be reset every few days).
+
+* **STORE INTERFACE:**
+> - [ ] The shop will display category tabs (Outfits, Wallpapers, and Items).
+> - [ ] The buttons for each item to be purchased have a thumbnail.
+> - [ ] Consumable items must display a name at the bottom of the button.
+> - [ ] All items (regardless of category) must show the available stock.
+> - [ ] When you press a button for an item, a pop-up window should open to select the quantity to purchase.
 
 - [ ] **18. [PENDING] MAP A TOTAL OF 30 SONGS FOR RELEASE.**
 
