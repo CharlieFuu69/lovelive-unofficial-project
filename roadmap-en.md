@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-05-05 20:49 (GMT -4)`    | 234                 | 0                  | 88.89% (16/18 tasks)   |
+| `2025-05-19 23:54 (GMT -4)`    | 240                 | 6                  | 88.89% (16/18 tasks)   |
 
 ---
 
@@ -52,20 +52,20 @@
 
 - [x] **16. [COMPLETE] ASYNCHRONOUS ONLINE EVENTS (GAME MECHANICS AND SERVER BACKEND).**
 
-- [ ] **17. [IN PROGRESS... (`0/12 - 0.00%`)] OUTFIT SHOP.**
+- [ ] **17. [IN PROGRESS... (`6/12 - 50.00%`)] OUTFIT SHOP.**
 
 * **STORE MANAGEMENT STRUCTURE:**
-> - [ ] Shop management class (`ShopManager()`).
-> - [ ] Shop index file (`ShopIndex.json`).
-> - [ ] Check item stock availability (`ShopManager.get_stock()`).
+> - [x] Shop management class (`ShopManager()`).
+> - [x] Shop index file (`ShopIndex.json`).
+> - [x] Check item stock availability (`ShopManager.get_stock()`).
 > - [ ] Items such as outfits or wallpapers can only be purchased once.
-> - [ ] Buy an item if it has stock available (`ShopManager.buy_item()`).
+> - [x] Buy an item if it has stock available (`ShopManager.buy()`).
 > - [ ] Automatically reset stock availability.
 > - [ ] Create a persistent container for counting purchased items (must be reset every few days).
 
 * **STORE INTERFACE:**
-> - [ ] The shop will display category tabs (Outfits, Wallpapers, and Items).
-> - [ ] The buttons for each item to be purchased have a thumbnail.
+> - [x] The shop will display category tabs (Outfits, Wallpapers, and Items).
+> - [x] The buttons for each item to be purchased have a thumbnail.
 > - [ ] Consumable items must display a name at the bottom of the button.
 > - [ ] All items (regardless of category) must show the available stock.
 > - [ ] When you press a button for an item, a pop-up window should open to select the quantity to purchase.
