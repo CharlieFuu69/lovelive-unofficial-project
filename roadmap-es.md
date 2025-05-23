@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2025-05-19 23:54 (GMT -4)`    | 240                 | 6                  | 88.89% (16/18 tareas)  |
+| `2025-05-22 20:40 (GMT -4)`    | 246                 | 0                  | 94.44% (17/18 tareas)  |
 
 ---
 
@@ -52,23 +52,7 @@
 
 - [x] **16. [COMPLETADO] EVENTOS ONLINE ASÍNCRONOS (MECÁNICAS DE JUEGO Y BACKEND DEL SERVIDOR).**
 
-- [ ] **17. [EN CURSO... (`6/12 - 50.00%`)] TIENDA DE ATUENDOS.**
-
-* **ESTRUCTURA DE GESTIÓN DE LA TIENDA:**
-> - [x] Clase de gestión de la tienda (`ShopManager()`).
-> - [x] Archivo de índice de la tienda (`ShopIndex.json`).
-> - [x] Comprobar la disponibilidad de stock de un objeto (`ShopManager.get_stock()`).
-> - [ ] Objetos como los atuendos o los fondos de pantalla solo se pueden comprar 1 vez.
-> - [x] Comprar un objeto si tiene stock disponible (`ShopManager.buy_item()`).
-> - [ ] Reiniciar disponibilidad de stock automáticamente.
-> - [ ] Crear contenedor persistente para el conteo de ítems comprados (debe reiniciarse cada un margen de días).
-
-* **INTERFAZ DE LA TIENDA:**
-> - [x] La tienda mostrará pestañas de categorías (Atuendos, Fondos de pantalla y Objetos).
-> - [x] Los botones de cada ítem a comprar, poseen una miniatura.
-> - [ ] Los ítems que son del tipo consumibles, deben mostrar un nombre en la parte inferior del botón.
-> - [ ] Todos los ítems (sea cual sea su categoría) deben ostrar el stock disponible.
-> - [ ] Al presionar un botón correspondiente a un ítem, se debe abrir una ventana emergente para seleccionar la cantidad a comprar.
+- [x] **17. [COMPLETADO] TIENDA DE ATUENDOS.**
 
 - [ ] **18. [PENDIENTE] MAPEAR UN TOTAL DE 30 CANCIONES PARA EL LANZAMIENTO.**
 
