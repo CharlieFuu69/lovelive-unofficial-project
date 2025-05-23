@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-05-19 23:54 (GMT -4)`    | 240                 | 6                  | 88.89% (16/18 tasks)   |
+| `2025-05-22 20:40 (GMT -4)`    | 246                 | 0                  | 94.44% (17/18 tasks)   |
 
 ---
 
@@ -52,23 +52,7 @@
 
 - [x] **16. [COMPLETE] ASYNCHRONOUS ONLINE EVENTS (GAME MECHANICS AND SERVER BACKEND).**
 
-- [ ] **17. [IN PROGRESS... (`6/12 - 50.00%`)] OUTFIT SHOP.**
-
-* **STORE MANAGEMENT STRUCTURE:**
-> - [x] Shop management class (`ShopManager()`).
-> - [x] Shop index file (`ShopIndex.json`).
-> - [x] Check item stock availability (`ShopManager.get_stock()`).
-> - [ ] Items such as outfits or wallpapers can only be purchased once.
-> - [x] Buy an item if it has stock available (`ShopManager.buy()`).
-> - [ ] Automatically reset stock availability.
-> - [ ] Create a persistent container for counting purchased items (must be reset every few days).
-
-* **STORE INTERFACE:**
-> - [x] The shop will display category tabs (Outfits, Wallpapers, and Items).
-> - [x] The buttons for each item to be purchased have a thumbnail.
-> - [ ] Consumable items must display a name at the bottom of the button.
-> - [ ] All items (regardless of category) must show the available stock.
-> - [ ] When you press a button for an item, a pop-up window should open to select the quantity to purchase.
+- [x] **17. [COMPLETE] OUTFIT SHOP.**
 
 - [ ] **18. [PENDING] MAP A TOTAL OF 30 SONGS FOR RELEASE.**
 
