@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-05-29 20:38 (GMT -4)`    | 246                 | 0                  | 94.44% (17/18 tasks)   |
+| `2025-07-25 03:04 (GMT -4)`    | 246                 | 0                  | 94.44% (17/18 tasks)   |
 
 ---
 
@@ -54,9 +54,9 @@
 
 - [x] **17. [COMPLETE] OUTFIT SHOP.**
 
-- [ ] **18. [IN PROGRESS... `(3.33%)`] MAP A TOTAL OF 30 SONGS FOR RELEASE.**
+- [ ] **18. [IN PROGRESS... `(20.00%)`] MAP A TOTAL OF 30 SONGS FOR RELEASE.**
 >
->   - **Mapped song progress:** `1/30`.
+>   - **Mapped song progress:** `6/30`.
 
 ---
 
