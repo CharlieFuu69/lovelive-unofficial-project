@@ -14,7 +14,7 @@
 
 | Last status update             | Completed tickets   | Pending tickets    | Total progress         |
 |---|---|---|---|
-| `2025-07-25 03:04 (GMT -4)`    | 246                 | 0                  | 94.44% (17/18 tasks)   |
+| `2025-07-28 20:53 (GMT -4)`    | 246                 | 0                  | 94.44% (17/18 tasks)   |
 
 ---
 
@@ -62,7 +62,19 @@
 
 ### Procedures not considered for progress:
 
-- [ ] **[PENDING] BUG CHECKING AND PREVIOUS CORRECTIONS.**
+- [ ] **[IN PROGRESS... `(1/11 - 9.09%)`] BUG CHECK AND PRE-FIXES.**
+>
+> - [x] Strategy manager optimization (`LiveStrategy()`).
+> - [ ] Affinity manager refactoring (`Partner()`).
+> - [ ] Implemented XP/LP Boosters.
+> - [ ] Modify the main menu for the in-game store.
+> - [ ] Modify the main menu for formation edit feature (Strategies).
+> - [ ] Modify the save data system and progress object (`PlayerManager()`).
+> - [ ] Modify the in-game news panel.
+> - [ ] Prepare tutorial windows for first-look gameplay.
+> - [ ] Prepare the help menu in the event room.
+> - [ ] Preparing the game's opening.
+> - [ ] Preliminary end-to-end testing.
 
 - [ ] **[PENDING] START OF "CLOSED BETA" PERIOD.**
 
