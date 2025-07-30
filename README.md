@@ -1,7 +1,7 @@
 <!-- Links de utilidad pública --->
 [license]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/LICENSE
 [renpy]: https://renpy.org/
-[roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/roadmap-es.md
+[roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/roadmap.md
 
 <!-- Badges del README --->
 [renpy-badge]: https://img.shields.io/badge/Engine-Ren'Py%20v8.1.3-red?style=for-the-badge&logo=python
