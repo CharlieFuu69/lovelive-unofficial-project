@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2025-07-28 20:53 (GMT -4)`    | 248                 | 9                  | 94.44% (17/18 tareas)  |
+| `2025-08-11 23:03 (GMT -4)`    | 249                 | 8                  | 94.44% (17/18 tareas)  |
 
 ---
 
@@ -66,7 +66,7 @@
 >
 > - [x] Modificación/optimización del gestor de estrategia (`LiveStrategy()`).
 > - [x] Modificación/refactorización del gestor de Afinidad (`Partner()`).
-> - [ ] Implementación de los Boosters de XP/LP.
+> - [x] Implementación de los Boosters de XP/LP.
 > - [ ] Modificación del menú principal para tienda del juego.
 > - [ ] Modificación del menú principal para modificar formación (Estrategias).
 > - [ ] Modificación del sistema de guardado de datos y objeto de progreso (`PlayerManager()`).
