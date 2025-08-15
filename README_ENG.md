@@ -72,7 +72,7 @@ You can visit and subscribe to the following information channels to stay up-to-
 
 * **Twitter (@CharlieFuu69): [Go to Twitter profile][twitter]**
 * **Telegram Broadcast Channel (@LoveLiveUP_Dev): [Join the broadcast channel][telegram]**
-* **LoveLive! UNOFFICIAL PROJECT on Discord: [Available soon...]**
+* **LoveLive! UNOFFICIAL PROJECT on Discord: [Join the server!][discord]**
 
 ---
 

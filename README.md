@@ -4,6 +4,7 @@
 [roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/roadmap.md
 [twitter]: https://x.com/CharlieFuu69
 [telegram]: https://t.me/LoveLiveUP_Dev
+[discord]: https://t.co/JmEnYgcVLI
 
 <!-- Badges del README --->
 [renpy-badge]: https://img.shields.io/badge/Engine-Ren'Py%20v8.1.3-red?style=for-the-badge&logo=python
@@ -72,7 +73,7 @@ Puedes visitar y suscribirte a los siguientes canales de información para mante
 
 * **Twitter (@CharlieFuu69): [Ir al perfil de Twitter][twitter]**
 * **Canal de difusión en Telegram (@LoveLiveUP_Dev): [Unirse al canal de difusión][telegram]**
-* **LoveLive! UNOFFICIAL PROJECT en Discord: [Disponible pronto...]**
+* **LoveLive! UNOFFICIAL PROJECT en Discord: [¡Unirse al servidor!][discord]**
 
 ---
 
