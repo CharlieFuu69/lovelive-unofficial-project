@@ -2,6 +2,8 @@
 [license]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/LICENSE
 [renpy]: https://renpy.org/
 [roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/roadmap.md
+[twitter]: https://x.com/CharlieFuu69
+[telegram]: https://t.me/LoveLiveUP_Dev
 
 <!-- Badges del README --->
 [renpy-badge]: https://img.shields.io/badge/Engine-Ren'Py%20v8.1.3-red?style=for-the-badge&logo=python
@@ -33,7 +35,7 @@
 
 ## ¡Bienvenidos a este proyecto!
 
-**"LoveLive! UNOFFICIAL PROJECT"** es un Fangame no oficial desarrollado con cariño por un LoveLiver, ¡para todos los LoveLivers del mundo!
+**"LoveLive! UNOFFICIAL PROJECT"** es un Fangame desarrollado con cariño por un LoveLiver, ¡para todos los LoveLivers del mundo!
 
 Este juego está siendo desarrollado en el motor de novelas visuales **"Ren'Py"**, y utiliza parcialmente los Assets 2D del juego oficial descontinuado **"LoveLive! School Idol Festival ALL STARS"**, tales como Sprites, íconos, cartas y clips de video de sus 3DMVs.
 
@@ -64,12 +66,13 @@ Este Fangame va a tener **eventos online con otros jugadores** _(no en tiempo re
 
 ## Fecha de liberación (Beta abierta)
 
-**LoveLive! UP** aún está en una fase demasiado temprana para ser liberado, pues faltan muchas cosas por desarrollar y testear. Quédate atento a los canales de información principales del proyecto para que te enteres de primera mano cuando se emita una fecha definitiva.
+La expectativa aproximada del inicio de las pruebas técnicas y de la liberación del Fangame en su versión de Beta abierta, está proyectada para Diciembre de 2025 (a más tardar). En estos momentos el proyecto está casi completo con un **94.44% del progreso total** estipulado en el **[Roadmap de desarrollo][roadmap]**
 
 Puedes visitar y suscribirte a los siguientes canales de información para mantenerte al tanto del desarrollo de LoveLive! UNOFFICIAL PROJECT:
 
-* **X (Ex-Twitter): [@CharlieFuu69](https://x.com/CharlieFuu69)**
-* **Telegram (Canal de difusión oficial): [@LoveLiveUP_Dev](https://t.me/LoveLiveUP_Dev)**
+* **Twitter (@CharlieFuu69): [Ir al perfil de Twitter][twitter]**
+* **Canal de difusión en Telegram (@LoveLiveUP_Dev): [Unirse al canal de difusión][telegram]**
+* **LoveLive! UNOFFICIAL PROJECT en Discord: [Disponible pronto...]**
 
 ---
 

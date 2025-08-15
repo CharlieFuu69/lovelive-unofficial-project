@@ -2,6 +2,8 @@
 [license]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/LICENSE
 [renpy]: https://renpy.org/
 [roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/roadmap.md
+[twitter]: https://x.com/CharlieFuu69
+[telegram]: https://t.me/LoveLiveUP_Dev
 
 <!-- Badges del README --->
 [renpy-badge]: https://img.shields.io/badge/Engine-Ren'Py%20v8.1.3-red?style=for-the-badge&logo=python
@@ -33,7 +35,7 @@
 
 ## Welcome to this project!
 
-**"Love Live! UNOFFICIAL PROJECT"** is an unofficial Fangame lovingly developed by a LoveLiver, for all the LoveLivers in the world!
+**"Love Live! UNOFFICIAL PROJECT"** is an Fangame lovingly developed by a LoveLiver, for all the LoveLivers in the world!
 
 This game is being developed in the **"Ren'Py"** visual novel engine, and partially uses the 2D Assets from the discontinued official game **"LoveLive! School Idol Festival ALL STARS"**, such as Sprites, Icons, Cards, and Video Clips from its 3DMVs.
 
@@ -64,12 +66,13 @@ This Fangame will have **online events with other players** _(not in real time)_
 
 ## Release Date (Open Beta)
 
-**LoveLive! UP** is still in too early a phase to be released, as there is still a lot of development and testing to be done. Stay tuned to the main project information channels to find out first-hand when a final release date is announced.
+The approximate expected start of technical testing and the release of the Fangame in its Open Beta version is projected for December 2025 (at the latest). The project is currently almost complete, with **94.44% of the total progress** stipulated in the **[Development Roadmap][roadmap]**.
 
-You can visit and subscribe to the following information channels to stay up to date with the development of LoveLive! UNOFFICIAL PROJECT:
+You can visit and subscribe to the following information channels to stay up-to-date with the development of LoveLive! UNOFFICIAL PROJECT:
 
-* **X (Twitter): [@CharlieFuu69](https://x.com/CharlieFuu69)**
-* **Telegram (Official broadcast channel): [@LoveLiveUP_Dev](https://t.me/LoveLiveUP_Dev)**
+* **Twitter (@CharlieFuu69): [Go to Twitter profile][twitter]**
+* **Telegram Broadcast Channel (@LoveLiveUP_Dev): [Join the broadcast channel][telegram]**
+* **LoveLive! UNOFFICIAL PROJECT on Discord: [Available soon...]**
 
 ---
 
