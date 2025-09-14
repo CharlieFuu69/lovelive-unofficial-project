@@ -14,7 +14,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |---|---|---|---|
-| `2025-08-11 23:03 (GMT -4)`    | 249                 | 8                  | 94.44% (17/18 tareas)  |
+| `2025-09-13 21:26 (GMT -4)`    | 249                 | 8                  | 95.92% (17/18 tareas)  |
 
 ---
 
@@ -54,9 +54,9 @@
 
 - [x] **17. [COMPLETADO] TIENDA DE ATUENDOS.**
 
-- [ ] **18. [EN CURSO... `(20.00%)`] MAPEAR UN TOTAL DE 30 CANCIONES PARA EL LANZAMIENTO.**
+- [ ] **18. [EN CURSO... `(26.67%)`] MAPEAR UN TOTAL DE 30 CANCIONES PARA EL LANZAMIENTO.**
 >
->  - **Progreso de canciones mapeadas:** `6/30`.
+>  - **Progreso de canciones mapeadas:** `8/30`.
 
 ---
 
