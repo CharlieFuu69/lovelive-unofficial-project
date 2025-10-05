@@ -15,8 +15,8 @@
 <!-- Referencia de progreso (hasta Tarea #17): 94.44% -->
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
-|---|---|---|---|
-| `2025-09-24 16:45 (GMT -4)`    | 249                 | 8                  | 96.11% (17/18 tareas)  |
+|--------------------------------|---------------------|--------------------|------------------------|
+| `2025-10-05 04:25 (GMT -4)`    | 249                 | 8                  | 96.29% (17/18 tareas)  |
 
 ---
 
@@ -56,19 +56,19 @@
 
 - [x] **17. [COMPLETADO] TIENDA DE ATUENDOS.**
 
-- [ ] **18. [EN CURSO... `(30.00%)`] MAPEAR UN TOTAL DE 30 CANCIONES PARA EL LANZAMIENTO.**
+- [ ] **18. [EN CURSO... `(33.00%)`] MAPEAR UN TOTAL DE 30 CANCIONES PARA EL LANZAMIENTO.**
 >
->  - **Progreso de canciones mapeadas:** `9/30`.
+>  - **Progreso de canciones mapeadas:** `10/30`.
 
 ---
 
 ### Procedimientos no considerados para el progreso:
 
-- [ ] **[EN CURSO... `(2/11 - 18.18%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
+- [ ] **[EN CURSO... `(3/11 - 27.27%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
 >
 > - [x] Modificación/optimización del gestor de estrategia (`LiveStrategy()`).
 > - [x] Modificación/refactorización del gestor de Afinidad (`Partner()`).
-> - [x] Implementación de los Boosters de XP/LP.
+> - [x] Implementación de los Boosters de XP/Monedas.
 > - [ ] Modificación del menú principal para tienda del juego.
 > - [ ] Modificación del menú principal para modificar formación (Estrategias).
 > - [ ] Modificación del sistema de guardado de datos y objeto de progreso (`PlayerManager()`).
