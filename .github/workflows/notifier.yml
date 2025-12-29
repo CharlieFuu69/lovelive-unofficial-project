@@ -1,0 +1,53 @@
+# Controla la ejecución del Workflow solo en determinados eventos
+on:
+    # Acciona el Workflow solo en eventos PUSH y PULL REQUESTS
+    push:
+        branches: [ "master" ]
+    pull_request:
+        branches: [ "master" ]
+
+    # Permite ejecutar el Workflow manualmente
+    workflow_dispatch:
+
+
+# Flujo de todas las acciones a ejecutar
+jobs:
+
+    # El Workflow de despacho de notificaciones (Telegram)
+    build:
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
+
+        # Este paso ejecuta el despacho de notificaciones
+        steps:
+            # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+            - uses: actions/checkout@v4
+            - name: Github Telegram Notifier
+              uses: EverythingSuckz/github-telegram-notify@main
+              with:
+                bot_token: '${{ secrets.TELEGRAM_NOTIFIER_TOKEN }}'
+                chat_id: '${{ secrets.CHAT_ID }}'
+
+
+    # El Workflow de despacho de notificaciones (Discord)
+    notif_dispatcher:
+        name: Notification dispatcher
+        runs-on: ubuntu-latest
+
+        # Este paso solo se ejecuta si el evento es un commit (Push)
+        # y corresponde a la rama maestra del repositorio.
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+        steps:
+            - name: Discord Webhook Notify
+              uses: rjstone/discord-webhook-notify@v2.2.1
+
+              with:
+                  webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+                  username: LoveLive! UNOFFICIAL PROJECT
+                  avatarUrl: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/img/window_icon.png
+
+                  severity: info
+                  color: '#CCFF00'
+                  title: "Commit notification (Public)"
+                  description: "```${{ github.event.head_commit.message }}```"
+                  footer: "[Repository]: lovelive-unofficial-project"
