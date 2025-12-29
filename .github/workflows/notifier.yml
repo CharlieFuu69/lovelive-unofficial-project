@@ -14,7 +14,7 @@ on:
 jobs:
 
     # El Workflow de despacho de notificaciones (Telegram)
-    build:
+    telegram_dispatcher:
         # The type of runner that the job will run on
         runs-on: ubuntu-latest
 
@@ -25,12 +25,12 @@ jobs:
             - name: Github Telegram Notifier
               uses: EverythingSuckz/github-telegram-notify@main
               with:
-                bot_token: '${{ secrets.TELEGRAM_NOTIFIER_TOKEN }}'
-                chat_id: '${{ secrets.CHAT_ID }}'
+                  bot_token: '${{ secrets.TELEGRAM_NOTIFIER_TOKEN }}'
+                  chat_id: '${{ secrets.CHAT_ID }}'
 
 
     # El Workflow de despacho de notificaciones (Discord)
-    notif_dispatcher:
+    discord_dispatcher:
         name: Notification dispatcher
         runs-on: ubuntu-latest
 
