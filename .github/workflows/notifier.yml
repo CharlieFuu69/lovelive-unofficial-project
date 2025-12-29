@@ -29,13 +29,13 @@ jobs:
                   webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
                   username: LoveLive! UNOFFICIAL PROJECT
                   avatarUrl: https://raw.githubusercontent.com/CharlieFuu69/lovelive-unofficial-project/refs/heads/master/img/window_icon.png
-                  text: "> **Tags:** @🤖 GitHub Tracker"
+                  text: "> **Tags:** @Commits"
                   
                   severity: info
                   color: '#CCFF00'
                   title: "Commit notification (Public)"
-                  description: "> *${{ github.event.head_commit.message }}*"
-                  footer: "[Repository]: lovelive-unofficial-project"
+                  description: "> ${{ github.event.head_commit.message }}"
+                  footer: "[Target]: CharlieFuu69/lovelive-unofficial-project"
 
 
     # El Workflow de despacho de notificaciones (Telegram)
