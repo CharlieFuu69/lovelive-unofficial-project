@@ -13,22 +13,6 @@ on:
 # Flujo de todas las acciones a ejecutar
 jobs:
 
-    # El Workflow de despacho de notificaciones (Telegram)
-    telegram_dispatcher:
-        # The type of runner that the job will run on
-        runs-on: ubuntu-latest
-
-        # Este paso ejecuta el despacho de notificaciones
-        steps:
-            # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-            - uses: actions/checkout@v4
-            - name: Github Telegram Notifier
-              uses: EverythingSuckz/github-telegram-notify@main
-              with:
-                  bot_token: '${{ secrets.TELEGRAM_NOTIFIER_TOKEN }}'
-                  chat_id: '${{ secrets.CHAT_ID }}'
-
-
     # El Workflow de despacho de notificaciones (Discord)
     discord_dispatcher:
         name: Notification dispatcher
@@ -44,10 +28,27 @@ jobs:
               with:
                   webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
                   username: LoveLive! UNOFFICIAL PROJECT
-                  avatarUrl: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/img/window_icon.png
-
+                  avatarUrl: https://raw.githubusercontent.com/CharlieFuu69/lovelive-unofficial-project/refs/heads/master/img/window_icon.png
+                  text: "> **Tags:** @🤖 GitHub Tracker"
+                  
                   severity: info
                   color: '#CCFF00'
                   title: "Commit notification (Public)"
-                  description: "```${{ github.event.head_commit.message }}```"
+                  description: "> *${{ github.event.head_commit.message }}*"
                   footer: "[Repository]: lovelive-unofficial-project"
+
+
+    # El Workflow de despacho de notificaciones (Telegram)
+    telegram_dispatcher:
+        name: Telegram dispatcher
+        runs-on: ubuntu-latest
+
+        # Este paso ejecuta el despacho de notificaciones
+        steps:
+            # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+            - uses: actions/checkout@v4
+            - name: Github Telegram Notifier
+              uses: EverythingSuckz/github-telegram-notify@main
+              with:
+                  bot_token: '${{ secrets.TELEGRAM_NOTIFIER_TOKEN }}'
+                  chat_id: '${{ secrets.CHAT_ID }}'
