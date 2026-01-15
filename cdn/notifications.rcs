@@ -1,0 +1,33 @@
+// Ren'Py Remote COMM System (Ren'Py RCS)
+// RCS file format v0.01.16a
+
+/* ---------------------------- COMM Stream Begin --------------------------- */
+
+
+// Sección de "Notificaciones generales"
+[COMM-NOTIFICATION]
+
+<JSON>
+{
+    "title" : "Test de sistema de comunicaciones",
+    "post_date" : "01/Ene/1970",
+    "post_time" : "00:00 (UTC)"
+}
+</JSON>
+
+<Body>
+¡Gracias por jugar a {color=FF577B}[config.name]{/color}!
+
+Texto de prueba para el sistema de comunicaciones del juego.
+Aquí va el cuerpo del comunicado, indicando detalles específicos.
+</Body>
+
+[/COMM-NOTIFICATION]
+
+
+// Sección de "Errores reportados"
+[COMM-ERROR-REPORTS]
+<Null>
+[/COMM-ERROR-REPORTS]
+
+/* ----------------------------- COMM Stream End ---------------------------- */

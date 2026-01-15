@@ -15,7 +15,7 @@ jobs:
 
     # El Workflow de despacho de notificaciones (Discord)
     discord_dispatcher:
-        name: Notification dispatcher
+        name: Discord dispatcher
         runs-on: ubuntu-latest
 
         # Este paso solo se ejecuta si el evento es un commit (Push)
@@ -29,8 +29,8 @@ jobs:
                   webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
                   username: LoveLive! UNOFFICIAL PROJECT
                   avatarUrl: https://raw.githubusercontent.com/CharlieFuu69/lovelive-unofficial-project/refs/heads/master/img/window_icon.png
-                  text: "> **Tags:** @Commits"
-                  
+                  text: "> 📢 **Tags:** <@&1454979948841402481>"
+
                   severity: info
                   color: '#CCFF00'
                   title: "Commit notification (Public)"
