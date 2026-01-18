@@ -64,7 +64,7 @@
 
 ### Procedimientos no considerados para el progreso:
 
-- [ ] **[EN CURSO... `(6/11 - 54.55%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
+- [ ] **[EN CURSO... `(7/11 - 63.64%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
 >
 > - [x] Modificación/optimización del gestor de estrategia (`LiveStrategy()`).
 > - [x] Modificación/refactorización del gestor de Afinidad (`Partner()`).
@@ -72,7 +72,7 @@
 > - [x] Modificación del menú principal para tienda del juego.
 > - [x] Modificación del menú principal para modificar formación (Estrategias).
 > - [x] Modificación del sistema de guardado de datos y objeto de progreso (`LocalDataHandler()`).
-> - [ ] Modificación del panel de noticias del juego.
+> - [x] Modificación del panel de noticias del juego.
 > - [ ] Preparación de ventanas de tutorial para primeros vistazos del juego.
 > - [ ] Preparación de menú de ayuda en sala de eventos.
 > - [ ] Preparación de la Intro (Opening) del juego.
