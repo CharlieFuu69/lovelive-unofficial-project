@@ -16,7 +16,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |--------------------------------|---------------------|--------------------|------------------------|
-| `2025-12-21 22:22 (GMT -3)`    | 249                 | 8                  | 96.66% (17/18 tareas)  |
+| `2026-02-15 19:50 (GMT -3)`    | 249                 | 8                  | 96.66% (17/18 tareas)  |
 
 ---
 
@@ -64,7 +64,7 @@
 
 ### Procedimientos no considerados para el progreso:
 
-- [ ] **[EN CURSO... `(7/11 - 63.64%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
+- [ ] **[EN CURSO... `(8/11 - 72.73%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
 >
 > - [x] Modificación/optimización del gestor de estrategia (`LiveStrategy()`).
 > - [x] Modificación/refactorización del gestor de Afinidad (`Partner()`).
@@ -73,7 +73,7 @@
 > - [x] Modificación del menú principal para modificar formación (Estrategias).
 > - [x] Modificación del sistema de guardado de datos y objeto de progreso (`LocalDataHandler()`).
 > - [x] Modificación del panel de noticias del juego.
-> - [ ] Preparación de ventanas de tutorial para primeros vistazos del juego.
+> - [x] Preparación de ventanas de tutorial para primeros vistazos del juego.
 > - [ ] Preparación de menú de ayuda en sala de eventos.
 > - [ ] Preparación de la Intro (Opening) del juego.
 > - [ ] Pruebas end-to-end preliminares.
