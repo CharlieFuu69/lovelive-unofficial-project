@@ -64,22 +64,29 @@
 
 ### Procedimientos no considerados para el progreso:
 
-- [ ] **[EN CURSO... `(7/11 - 63.64%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
+- [ ] **[EN CURSO... `(9/18 - 50.00%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
 >
-> - [x] Modificación/optimización del gestor de estrategia (`LiveStrategy()`).
-> - [x] Modificación/refactorización del gestor de Afinidad (`Partner()`).
-> - [x] Implementación de los Boosters de XP/Monedas.
-> - [x] Modificación del menú principal para tienda del juego.
-> - [x] Modificación del menú principal para modificar formación (Estrategias).
-> - [x] Modificación del sistema de guardado de datos y objeto de progreso (`LocalDataHandler()`).
-> - [x] Modificación del panel de noticias del juego.
-> - [ ] Preparación de ventanas de tutorial para primeros vistazos del juego.
-> - [ ] Preparación de menú de ayuda en sala de eventos.
-> - [ ] Preparación de la Intro (Opening) del juego.
-> - [ ] Pruebas end-to-end preliminares.
+> - [x] **1. Modificación/optimización del gestor de estrategia (`LiveStrategy()`).**
+> - [x] **2. Modificación/refactorización del gestor de Afinidad (`Partner()`).**
+> - [x] **3. Implementación de los Boosters de XP/Monedas.**
+> - [x] **4. Modificación del menú principal para tienda del juego.**
+> - [x] **5. Modificación del menú principal para modificar formación (Estrategias).**
+> - [x] **6. Modificación del sistema de guardado de datos y objeto de progreso (`LocalDataHandler()`).**
+> - [x] **7. Modificación del panel de noticias del juego.**
+> - [x] **8. Preparación de ventanas de tutorial para primeros vistazos del juego.**
+> - [x] **9. Modificaciones en animaciones en reclutamientos (Gacha).**
+> - [ ] 10. Modificaciones en la UI del Home Menu.
+> - [ ] 11. Crear lógica de entrenamiento de School Idols.
+> - [ ] 12. Crear UI de entrenamiento de School Idols.
+> - [ ] 13. Modificar el apartado visual de configuración de Live Shows para admitir la perspectiva 3D de los carriles de notas.
+> - [ ] 14. Modificar visualización de habilidades activas (Live Show Individual).
+> - [ ] 15. Modificar UI de Live Shows para mostrar la carta de la última nota tocada (Live Show Individual).
+> - [ ] 16. Preparación de menú de ayuda en sala de eventos.
+> - [ ] 17. Preparación de la Intro (Opening) del juego.
+> - [ ] 18. Pruebas end-to-end preliminares.
 
-- [ ] **[PENDIENTE] INICIO DE PERIODO DE "BETA CERRADA".**
+- [ ] **[PENDIENTE] FASE DE BETA BUILDS CERRADAS PARA PLAYTESTERS AUTORIZADOS (v0.01.1).**
 
-- [ ] **[PENDIENTE] LIBERACIÓN DE "LOVELIVE! UNOFFICIAL PROJECT".**
+- [ ] **[PENDIENTE] LIBERACIÓN DE "LOVELIVE! UNOFFICIAL PROJECT" (v1.00.1).**
 
-- [ ] **[PENDIENTE] LIBERACIÓN DEL CÓDIGO FUENTE DEL JUEGO (GitHub).**
+- [ ] **[PENDIENTE] LIBERACIÓN DEL CÓDIGO FUENTE PARCIAL DEL JUEGO (GitHub).**
