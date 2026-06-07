@@ -16,7 +16,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |--------------------------------|---------------------|--------------------|------------------------|
-| `2025-12-21 22:22 (GMT -3)`    | 249                 | 8                  | 96.66% (17/18 tareas)  |
+| `2026-06-07 17:49 (UTC -4)`    | 249                 | 8                  | 96.66% (17/18 tareas)  |
 
 ---
 
@@ -64,7 +64,7 @@
 
 ### Procedimientos no considerados para el progreso:
 
-- [ ] **[EN CURSO... `(9/18 - 50.00%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
+- [ ] **[EN CURSO... `(10/18 - 55.56%)`] COMPROBACIÓN DE ERRORES Y CORRECCIONES PREVIAS.**
 >
 > - [x] **1. Modificación/optimización del gestor de estrategia (`LiveStrategy()`).**
 > - [x] **2. Modificación/refactorización del gestor de Afinidad (`Partner()`).**
@@ -75,7 +75,7 @@
 > - [x] **7. Modificación del panel de noticias del juego.**
 > - [x] **8. Preparación de ventanas de tutorial para primeros vistazos del juego.**
 > - [x] **9. Modificaciones en animaciones en reclutamientos (Gacha).**
-> - [ ] 10. Modificaciones en la UI del Home Menu.
+> - [x] 10. Modificaciones en la UI del Home Menu.
 > - [ ] 11. Crear lógica de entrenamiento de School Idols.
 > - [ ] 12. Crear UI de entrenamiento de School Idols.
 > - [ ] 13. Modificar el apartado visual de configuración de Live Shows para admitir la perspectiva 3D de los carriles de notas.
