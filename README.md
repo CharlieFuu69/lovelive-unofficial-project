@@ -1,7 +1,7 @@
 <!-- Links de utilidad pública --->
-[license]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/LICENSE
+[license]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/master/LICENSE
 [renpy]: https://renpy.org/
-[roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/roadmap.md
+[roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/master/roadmap.md
 [twitter]: https://x.com/CharlieFuu69
 [telegram]: https://t.me/LoveLiveUP_Dev
 [discord]: https://t.co/JmEnYgcVLI
