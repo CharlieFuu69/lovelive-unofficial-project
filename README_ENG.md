@@ -1,9 +1,10 @@
 <!-- Links de utilidad pública --->
-[license]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/LICENSE
+[license]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/master/LICENSE
 [renpy]: https://renpy.org/
-[roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/main/roadmap.md
+[roadmap]: https://github.com/CharlieFuu69/lovelive-unofficial-project/blob/master/roadmap.md
 [twitter]: https://x.com/CharlieFuu69
 [telegram]: https://t.me/LoveLiveUP_Dev
+[discord]: https://discord.gg/3GUZ63jEb6
 
 <!-- Badges del README --->
 [renpy-badge]: https://img.shields.io/badge/Engine-Ren'Py%20v8.1.3-red?style=for-the-badge&logo=python
@@ -64,14 +65,12 @@ This Fangame will have **online events with other players** _(not in real time)_
 
 ---
 
-## Release Date (Open Beta)
-
-The approximate expected start of technical testing and the release of the Fangame in its Open Beta version is projected for December 2025 (at the latest). The project is currently almost complete, with **94.44% of the total progress** stipulated in the **[Development Roadmap][roadmap]**.
+## Stay tuned!
 
 You can visit and subscribe to the following information channels to stay up-to-date with the development of LoveLive! UNOFFICIAL PROJECT:
 
 * **Twitter (@CharlieFuu69): [Go to Twitter profile][twitter]**
-* **Telegram Broadcast Channel (@LoveLiveUP_Dev): [Join the broadcast channel][telegram]**
+* **(Archive) Telegram Broadcast Channel (@LoveLiveUP_Dev): [Join the broadcast channel][telegram]**
 * **LoveLive! UNOFFICIAL PROJECT on Discord: [Join the server!][discord]**
 
 ---
