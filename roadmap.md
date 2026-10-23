@@ -16,7 +16,7 @@
 
 | Última actualización de status | Tickets completados | Tickets pendientes | Progreso total         |
 |--------------------------------|---------------------|--------------------|------------------------|
-| `2026-06-21 13:17 (UTC -4)`    | 260                 | 7                  | 96.66% (17/18 tareas)  |
+| `2026-10-23 15:57 (UTC -4)`    | 262                 | 5                  | 96.66% (17/18 tareas)  |
 
 ---
 
@@ -64,7 +64,7 @@
 
 ### Procedimientos no considerados para el progreso:
 
-- [ ] **[EN CURSO... `(13/19 - 68.42%)`] TAREAS DE PRE-LANZAMIENTO.**
+- [ ] **[EN CURSO... `(15/19 - 78.95%)`] TAREAS DE PRE-LANZAMIENTO.**
 >
 > - [x] **1. Modificación/optimización del gestor de estrategia (`LiveStrategy()`).**
 > - [x] **2. Modificación/refactorización del gestor de Afinidad (`Partner()`).**
@@ -77,16 +77,18 @@
 > - [x] **9. Modificaciones en animaciones en reclutamientos (Gacha).**
 > - [x] **10. Modificaciones en la UI del Home Menu.**
 > - [x] **11. Refactorizar lógica de logros In-Game (`GoalData()` y `GoalManager()`).**
-> - [ ] 12. Crear lógica de entrenamiento de School Idols.
-> - [ ] 13. Crear UI de entrenamiento de School Idols.
+> - [x] **12. Crear lógica de entrenamiento de School Idols.**
+> - [x] **13. Crear UI de entrenamiento de School Idols.**
 > - [ ] 14. Modificar el apartado visual de configuración de Live Shows para admitir la perspectiva 3D de los carriles de notas.
 > - [x] **15. Modificar visualización de habilidades activas (Live Show Individual).**
 > - [x] **16. Modificar UI de Live Shows para mostrar la carta de la última nota tocada (Live Show Individual).**
-> - [ ] 17. Preparación de menú de ayuda en sala de eventos.
+> - [ ] 17. Preparación de la Wiki del Fangame.
 > - [ ] 18. Preparación de la Intro (Opening) del juego.
 > - [ ] 19. Pruebas end-to-end preliminares.
 
-- [ ] **[PENDIENTE] FASE DE BETA BUILDS CERRADAS PARA PLAYTESTERS AUTORIZADOS (v0.01.1).**
+- [ ] **[PENDIENTE] ALPHA BUILDS CERRADAS PARA PLAYTESTERS AUTORIZADOS (`v0.01.x`).**
+
+- [ ] **[PENDIENTE] BETA BUILDS CERRADAS PARA PLAYTESTERS AUTORIZADOS (`v0.02.x`).**
 
 - [ ] **[PENDIENTE] LIBERACIÓN DE "LOVELIVE! UNOFFICIAL PROJECT" (v1.00.1).**
 
