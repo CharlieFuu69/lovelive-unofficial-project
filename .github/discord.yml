@@ -1,0 +1,79 @@
+# Controla la ejecución del Workflow solo en determinados eventos
+on:
+    # Acciona el Workflow solo en eventos PUSH y PULL REQUESTS
+    push:
+        branches: [ "master" ]
+    pull_request:
+        branches: [ "master" ]
+        types: [closed]
+
+    # Permite ejecutar el Workflow manualmente
+    workflow_dispatch:
+
+
+# Flujo de todas las acciones a ejecutar
+jobs:
+
+    # El Workflow de despacho de notificaciones (Discord)
+    notif_push:
+        name: Discord dispatcher
+        runs-on: ubuntu-latest
+
+        # Este paso solo se ejecuta si el evento es un commit (Push)
+        # y corresponde a la rama maestra del repositorio.
+        if: ${{ github.event_name == 'push' }}
+        steps:
+            - name: Commit SHA Shortener
+              id: short_sha
+              run: echo "sha_short=$(echo ${{ github.sha }} | cut -c1-7)" >> "$GITHUB_OUTPUT"
+
+
+            - name: Discord Webhook Notify
+              uses: rjstone/discord-webhook-notify@v2.2.1
+
+
+              with:
+                  webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+                  username: LoveLive! UNOFFICIAL PROJECT
+                  avatarUrl: https://raw.githubusercontent.com/CharlieFuu69/lovelive-unofficial-project/refs/heads/master/img/window_icon.png
+                  text: "> 📢 **Tags:** <@&1454979948841402481>"
+
+                  severity: info
+                  color: '#CCFF00'
+                  title: "Commit notification"
+                  description: "<:githubcommit:1533173924446212137> **[Branch]: `${{ github.ref_name }} (${{ steps.short_sha.outputs.sha_short }})`**"
+                  details: "> ${{ github.event.head_commit.message }}"
+
+                  footer: "GitHub: CharlieFuu69/lovelive-unofficial-project`"
+
+            - name: Wait for sync
+              run: sleep 3
+
+
+    notif_merge:
+        name: Discord dispatcher (Merge)
+        runs-on: ubuntu-latest
+
+        if: >
+          github.event_name == 'pull_request' &&
+          github.event.pull_request.merged == true
+
+        steps:
+          - name: Discord Webhook Notify
+            uses: rjstone/discord-webhook-notify@v2.2.1
+
+            with:
+              webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+              username: LoveLive! UNOFFICIAL PROJECT
+              avatarUrl: https://raw.githubusercontent.com/CharlieFuu69/lovelive-unofficial-project/refs/heads/master/img/window_icon.png
+
+              severity: info
+              color: '#630091'
+              title: "Branch Merge Notification"
+              description: "<:githubmerge:1533173175649702098> **[Merge]: `${{ github.event.pull_request.head.ref }}` → `${{ github.event.pull_request.base.ref }}`**"
+              details: "${{ github.event.pull_request.title }}"
+
+              footer: "GitHub: CharlieFuu69/lovelive-unofficial-project`"
+
+          - name: Wait for sync
+            run: sleep 3
