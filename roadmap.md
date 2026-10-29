@@ -64,7 +64,7 @@
 
 ### Procedimientos no considerados para el progreso:
 
-- [ ] **[EN CURSO... `(15/19 - 78.95%)`] TAREAS DE PRE-LANZAMIENTO.**
+- [ ] **[EN CURSO... `(16/19 - 84.21%%)`] TAREAS DE PRE-LANZAMIENTO.**
 >
 > - [x] **1. Modificación/optimización del gestor de estrategia (`LiveStrategy()`).**
 > - [x] **2. Modificación/refactorización del gestor de Afinidad (`Partner()`).**
@@ -82,7 +82,7 @@
 > - [ ] 14. Modificar el apartado visual de configuración de Live Shows para admitir la perspectiva 3D de los carriles de notas.
 > - [x] **15. Modificar visualización de habilidades activas (Live Show Individual).**
 > - [x] **16. Modificar UI de Live Shows para mostrar la carta de la última nota tocada (Live Show Individual).**
-> - [ ] 17. Preparación de la Wiki del Fangame.
+> - [x] **17. Preparación de la Wiki del Fangame.**
 > - [ ] 18. Preparación de la Intro (Opening) del juego.
 > - [ ] 19. Pruebas end-to-end preliminares.
 
